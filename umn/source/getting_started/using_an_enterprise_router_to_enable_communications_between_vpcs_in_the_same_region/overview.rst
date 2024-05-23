@@ -2,13 +2,13 @@
 
 .. _er_01_0062:
 
-Quick Start
-===========
+Overview
+========
 
 Background
 ----------
 
-Four VPCs are created in region A on public cloud and they need to communicate with each other.
+Four VPCs are created in region A on the public cloud and they need to communicate with each other.
 
 You can create an enterprise router in region A and attach the four VPCs to the enterprise router. The enterprise router can route traffic among the VPCs so that they can communicate with each other.
 

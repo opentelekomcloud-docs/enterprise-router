@@ -12,7 +12,7 @@ This section describes how to view basic information about an enterprise router,
 
 You can also view other information about the enterprise router, including:
 
--  Attachments, such as their name, type, and attached resources. For details, see :ref:`Viewing Details About an Attachment <er_01_0021>`.
+-  Attachments, such as their name, type, and attached resources. For details, see :ref:`Viewing an Attachment <er_01_0021>`.
 -  Route tables, such as the default route table and custom route tables. For details, see :ref:`Viewing Route Tables <er_01_0027>`.
 -  Tags. For details, see :ref:`Viewing a Tag <er_01_0053>`.
 

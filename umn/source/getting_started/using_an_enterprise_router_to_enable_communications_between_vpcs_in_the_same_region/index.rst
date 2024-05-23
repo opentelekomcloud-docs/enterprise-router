@@ -5,7 +5,7 @@
 Using an Enterprise Router to Enable Communications Between VPCs in the Same Region
 ===================================================================================
 
--  :ref:`Quick Start <er_01_0062>`
+-  :ref:`Overview <er_01_0062>`
 -  :ref:`Step 1: Plan Networks and Resources <er_01_0063>`
 -  :ref:`Step 2: Create an Enterprise Router <er_01_0064>`
 -  :ref:`Step 3: (Optional) Create VPCs and ECSs <er_01_0065>`
@@ -17,7 +17,7 @@ Using an Enterprise Router to Enable Communications Between VPCs in the Same Reg
    :maxdepth: 1
    :hidden: 
 
-   quick_start
+   overview
    step_1_plan_networks_and_resources
    step_2_create_an_enterprise_router
    step_3_optional_create_vpcs_and_ecss

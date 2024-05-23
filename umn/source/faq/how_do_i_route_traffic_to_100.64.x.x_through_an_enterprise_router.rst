@@ -104,7 +104,7 @@ The required resources and routes are as follows:
 
 #. Create a transit VPC, attach it to the enterprise router, and associate the transit VPC with the default route table of the enterprise router.
 
-   -  The subnet of the transit VPC cannot overlap with that of the service VPC. Otherwise, the VPC peering connection to be created in :ref:`2 <er_01_0122__li14564823993>` cannot take effect.
+   -  The subnet of the transit VPC cannot overlap with that of the service VPC, or the VPC peering connection to be created in :ref:`2 <er_01_0122__li14564823993>` cannot take effect.
    -  The transit VPC cannot have the following situations. Otherwise, the default route (0.0.0.0/0) to be configured in :ref:`3 <er_01_0122__li92642018194217>` cannot forward traffic.
 
       -  An ECS in the VPC has an EIP bound.

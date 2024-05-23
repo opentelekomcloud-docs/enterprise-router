@@ -19,7 +19,7 @@ Procedure
 
 #. Click |image1| in the upper left corner and select the desired region and project.
 
-#. Click **Service List**. Under **Management & Governance**, click **Cloud Trace Service**.
+#. Click **Service List**. Under **Management and Deployment**, click **Cloud Trace Service**.
 
    The **Cloud Trace Service** console is displayed.
 

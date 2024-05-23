@@ -8,7 +8,7 @@ Enabling a Flow Log
 Scenarios
 ---------
 
-This section describes how to enable a flow log. After a flow log is enabled, the enterprise router will send log information to LTS.
+If flow logging is enabled, flow logs will be collected from the next log collection period.
 
 Procedure
 ---------

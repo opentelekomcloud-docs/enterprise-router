@@ -15,7 +15,7 @@ Notes and Constraints
 
 -  Deleting an attachment will also delete its associations, propagations, and propagated routes in the route table.
 
--  Deleting an attachment will also delete its flow logs.
+-  If flow logging is enabled for an attachment, flow logging will be disabled, but collected flow logs will not be deleted.
 
 Procedure
 ---------
@@ -43,7 +43,7 @@ Procedure
 
    .. important::
 
-      A virtual gateway attachment cannot be directly deleted on the **Attachments** page of the enterprise router.
+      A virtual gateway attachment cannot be directly deleted on the **Attachments** tab.
 
       A virtual gateway attachment will be automatically deleted after you perform the following operations to delete the virtual gateway and its virtual interfaces.
 

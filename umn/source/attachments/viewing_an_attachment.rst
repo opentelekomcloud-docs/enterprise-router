@@ -2,8 +2,8 @@
 
 .. _er_01_0021:
 
-Viewing Details About an Attachment
-===================================
+Viewing an Attachment
+=====================
 
 Scenarios
 ---------
