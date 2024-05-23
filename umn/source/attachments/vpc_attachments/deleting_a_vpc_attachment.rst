@@ -15,7 +15,7 @@ Notes and Constraints
 
 -  Deleting an attachment will also delete its associations, propagations, and propagated routes in the route table.
 -  After an attachment is deleted, the next hop of its related static routes will be **Blackhole**. If the destination of a packet matches the blackhole route, the packet will be discarded.
--  Deleting an attachment will also delete its flow logs.
+-  If flow logging is enabled for an attachment, flow logging will be disabled, but collected flow logs will not be deleted.
 
 Procedure
 ---------

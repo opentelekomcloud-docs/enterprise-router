@@ -55,22 +55,22 @@ Procedure
 
    .. table:: **Table 1** Parameters for creating a propagation
 
-      +-----------------------+--------------------------------------------------------------------------------------------+-----------------------+
-      | Parameter             | Setting                                                                                    | Example Value         |
-      +=======================+============================================================================================+=======================+
-      | Attachment Type       | Mandatory                                                                                  | VPC                   |
-      |                       |                                                                                            |                       |
-      |                       | Select an attachment type.                                                                 |                       |
-      |                       |                                                                                            |                       |
-      |                       | -  **VPC**                                                                                 |                       |
-      |                       | -  **Virtual gateway**                                                                     |                       |
-      |                       |                                                                                            |                       |
-      |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                         |                       |
-      +-----------------------+--------------------------------------------------------------------------------------------+-----------------------+
-      | Attachment            | Mandatory                                                                                  | er-attach-02          |
-      |                       |                                                                                            |                       |
-      |                       | In the drop-down list, select the attachment who will propagate routes to the route table. |                       |
-      +-----------------------+--------------------------------------------------------------------------------------------+-----------------------+
+      +-----------------------+------------------------------------------------------------------------------------------------+-----------------------+
+      | Parameter             | Setting                                                                                        | Example Value         |
+      +=======================+================================================================================================+=======================+
+      | Attachment Type       | Mandatory                                                                                      | VPC                   |
+      |                       |                                                                                                |                       |
+      |                       | Select an attachment type.                                                                     |                       |
+      |                       |                                                                                                |                       |
+      |                       | -  **VPC**: A VPC is attached to the enterprise router.                                        |                       |
+      |                       | -  **Virtual gateway**: A Direct Connect virtual gateway is attached to the enterprise router. |                       |
+      |                       |                                                                                                |                       |
+      |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                             |                       |
+      +-----------------------+------------------------------------------------------------------------------------------------+-----------------------+
+      | Attachment            | Mandatory                                                                                      | er-attach-02          |
+      |                       |                                                                                                |                       |
+      |                       | In the drop-down list, select the attachment who will propagate routes to the route table.     |                       |
+      +-----------------------+------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Click **OK**.
 

@@ -9,7 +9,7 @@ If you want two attachments of an enterprise router to learn routes from each ot
 
 If you want two virtual gateways attached to the same enterprise router to learn routes from each other, their ASNs can be as follows:
 
--  Enterprise router: 64512
+-  Enterprise router: 64800
 -  Virtual gateway attachment A: 64513 (BGP ASN of virtual gateway A)
 -  Virtual gateway attachment B: 64515 (BGP ASN of virtual gateway B)
 

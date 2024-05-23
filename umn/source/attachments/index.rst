@@ -6,17 +6,17 @@ Attachments
 ===========
 
 -  :ref:`Attachment Overview <er_01_0019>`
--  :ref:`Adding VPC Attachments to an Enterprise Router <er_01_0070>`
+-  :ref:`VPC Attachments <er_01_0167>`
+-  :ref:`Virtual Gateway Attachments <er_01_0168>`
 -  :ref:`Changing the Name of an Attachment <er_01_0093>`
--  :ref:`Viewing Details About an Attachment <er_01_0021>`
--  :ref:`Deleting an Attachment <er_01_0022>`
+-  :ref:`Viewing an Attachment <er_01_0021>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
    attachment_overview
-   adding_vpc_attachments_to_an_enterprise_router
+   vpc_attachments/index
+   virtual_gateway_attachments/index
    changing_the_name_of_an_attachment
-   viewing_details_about_an_attachment
-   deleting_an_attachment/index
+   viewing_an_attachment

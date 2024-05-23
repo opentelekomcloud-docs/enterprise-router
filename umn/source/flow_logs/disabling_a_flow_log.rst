@@ -8,7 +8,7 @@ Disabling a Flow Log
 Scenarios
 ---------
 
-This section describes how to disable a flow log. After a flow log is disabled, the enterprise router will not send log information to LTS.
+If flow logging is disabled, no flow logs will be collected in the next log collection period. Collected flow logs can still be viewed.
 
 Procedure
 ---------

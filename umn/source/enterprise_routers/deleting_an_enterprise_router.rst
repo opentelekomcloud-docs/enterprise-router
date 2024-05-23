@@ -13,7 +13,7 @@ This section describes how to delete an enterprise router.
 Notes and Constraints
 ---------------------
 
--  An enterprise router that has attachments cannot be deleted. To delete such an enterprise router, delete its attachments first. For details, see :ref:`Deleting an Attachment <er_01_0022>`.
+-  An enterprise router that has attachments cannot be deleted. Delete the attachments first. For details, see :ref:`Attachment Overview <er_01_0019>`.
 -  An enterprise router that has route tables can be deleted directly.
 -  An enterprise router that is shared with other accounts can be deleted directly.
 -  Deleting an enterprise router will also delete all of its flow logs.
