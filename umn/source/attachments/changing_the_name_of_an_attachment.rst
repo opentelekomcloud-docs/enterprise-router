@@ -8,7 +8,7 @@ Changing the Name of an Attachment
 Scenarios
 ---------
 
-This section describes how to change the name of an attachment.
+This section describes how to modify the name of an attachment.
 
 Procedure
 ---------
@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -47,7 +47,7 @@ Procedure
       +=======================+================================================================================+=======================+
       | Name                  | Mandatory                                                                      | er-attach-01          |
       |                       |                                                                                |                       |
-      |                       | Enter the attachment name. The name:                                           |                       |
+      |                       | Enter an attachment name. The name:                                            |                       |
       |                       |                                                                                |                       |
       |                       | -  Must contain 1 to 64 characters.                                            |                       |
       |                       | -  Can contain letters, digits, underscores (_), hyphens (-), and periods (.). |                       |
@@ -58,4 +58,4 @@ Procedure
    The attachment list is displayed.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png
-.. |image2| image:: /_static/images/en-us_image_0000001243682317.png
+.. |image2| image:: /_static/images/en-us_image_0000001894085841.png

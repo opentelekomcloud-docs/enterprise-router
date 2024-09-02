@@ -8,7 +8,7 @@ Deleting a Route Table
 Scenarios
 ---------
 
-This section describes how to delete a route table of an enterprise router.
+Delete an enterprise router route table that is no longer needed.
 
 Notes and Constraints
 ---------------------
@@ -36,7 +36,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 

@@ -26,13 +26,13 @@ An enterprise router is a project-level service deployed in a specific region. Y
 
 .. table:: **Table 1** System-defined policies on enterprise routers
 
-   +-------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+
-   | System Policy     | Description                                                                                                                            | Type          | Dependency |
-   +===================+========================================================================================================================================+===============+============+
-   | ER FullAccess     | Administrator permissions for enterprise routers. Users with such permissions can operate and use all resources on enterprise routers. | System policy | None       |
-   +-------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+
-   | ER ReadOnlyAccess | Read-only permissions for enterprise routers. Users with such permissions can only view data on enterprise routers.                    | System policy | None       |
-   +-------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+------------+
+   +-------------------+----------------------------------------------------------------------------------------------------------------------------------------+-----------------------+------------+
+   | System Policy     | Description                                                                                                                            | Type                  | Dependency |
+   +===================+========================================================================================================================================+=======================+============+
+   | ER FullAccess     | Administrator permissions for enterprise routers. Users with such permissions can operate and use all resources on enterprise routers. | System-defined policy | None       |
+   +-------------------+----------------------------------------------------------------------------------------------------------------------------------------+-----------------------+------------+
+   | ER ReadOnlyAccess | Read-only permissions for enterprise routers. Users with such permissions can only view data on enterprise routers.                    | System-defined policy | None       |
+   +-------------------+----------------------------------------------------------------------------------------------------------------------------------------+-----------------------+------------+
 
 .. note::
 

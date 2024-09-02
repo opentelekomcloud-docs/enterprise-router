@@ -20,7 +20,7 @@ Prerequisites
 
 You have learned about Enterprise Router permissions that can be added to the user group. For details about the system permissions supported by enterprise routers, see :ref:`Permissions <er_01_0008>`.
 
-For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/permissions/index.html>`__.
+For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/identity-access-management/permissions/permissions.html>`__.
 
 Process Flow
 ------------
@@ -32,8 +32,16 @@ Process Flow
 
    **Figure 1** Process for granting Enterprise Router permissions
 
-#. `Create a user group and assign permissions to it <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0030.html>`__ (**ER ReadOnlyAccess** as an example).
-#. `Create an IAM user and add it to the user group <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0031.html>`__.
+#. .. _er_01_0046__li10176121316284:
+
+   `Create a user group and assign permissions <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0030.html>`__.
+
+   Create a user group on the IAM console, and assign the **ER ReadOnlyAccess** permission to the group.
+
+#. `Create a user and add the user to the user group <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0031.html>`__.
+
+   Create a user on the IAM console and add the user to the group created in :ref:`1 <er_01_0046__li10176121316284>`.
+
 #. `Log in <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0032.html>`__ to the management console as the created user, switch to the authorized region, and verify that the user has only the **ER ReadOnlyAccess** permission.
 
    a. Click **Service List** and choose **Enterprise Router**. Then click **Create Enterprise Router** in the upper right corner. If the enterprise router fails to be created, the **ER ReadOnlyAccess** permission has taken effect.

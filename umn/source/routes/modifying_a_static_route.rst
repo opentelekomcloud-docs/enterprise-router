@@ -29,7 +29,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -70,14 +70,14 @@ Procedure
       | Attachment Type       | -  If **Blackhole Route** is not enabled, you need to configure this parameter.                                                                                                                                                                                               | VPC                   |
       |                       | -  If **Blackhole Route** is enabled, you do not need to configure this parameter.                                                                                                                                                                                            |                       |
       |                       |                                                                                                                                                                                                                                                                               |                       |
-      |                       | **VPC**: You want to attach a VPC to an enterprise router.                                                                                                                                                                                                                    |                       |
+      |                       | **VPC**: A VPC is attached to the enterprise router.                                                                                                                                                                                                                          |                       |
       |                       |                                                                                                                                                                                                                                                                               |                       |
       |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                                                                                                                                                                                                            |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Next Hop              | -  If **Blackhole Route** is not enabled, you need to configure this parameter.                                                                                                                                                                                               | er-attach-01          |
       |                       | -  If **Blackhole Route** is enabled, you do not need to configure this parameter.                                                                                                                                                                                            |                       |
       |                       |                                                                                                                                                                                                                                                                               |                       |
-      |                       | Select the attachment from the drop-down list.                                                                                                                                                                                                                                |                       |
+      |                       | In the drop-down list, select the target attachment.                                                                                                                                                                                                                          |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Click **OK**.

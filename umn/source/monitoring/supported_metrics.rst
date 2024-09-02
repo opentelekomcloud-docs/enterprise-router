@@ -18,7 +18,7 @@ SYS.ER
 Metrics
 -------
 
-You can use Cloud Eye to monitor the network status of enterprise routes and their attachments.
+You can use Cloud Eye to monitor the network status of enterprise routers and their attachments.
 
 -  :ref:`Table 1 <er_01_0103__en-us_topic_0024607920_table6444895193247>`
 -  :ref:`Table 2 <er_01_0103__table1914912214313>`

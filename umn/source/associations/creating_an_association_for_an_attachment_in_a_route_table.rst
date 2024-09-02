@@ -24,7 +24,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -64,6 +64,7 @@ Procedure
       |                       |                                                                                                |                       |
       |                       | -  **VPC**: A VPC is attached to the enterprise router.                                        |                       |
       |                       | -  **Virtual gateway**: A Direct Connect virtual gateway is attached to the enterprise router. |                       |
+      |                       | -  **VPN gateway**: A VPN gateway is attached to the enterprise router.                        |                       |
       |                       |                                                                                                |                       |
       |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                             |                       |
       +-----------------------+------------------------------------------------------------------------------------------------+-----------------------+

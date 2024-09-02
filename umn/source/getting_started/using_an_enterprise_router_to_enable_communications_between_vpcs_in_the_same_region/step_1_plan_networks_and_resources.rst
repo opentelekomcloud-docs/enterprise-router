@@ -68,18 +68,18 @@ Network Planning
 
 .. table:: **Table 3** VPC route table
 
-   ============== ================= ====================
+   ============== ================= =====================
    Destination    Next Hop          Route Type
-   ============== ================= ====================
-   10.0.0.0/8     Enterprise router Static route: Custom
-   172.16.0.0/12  Enterprise Router Static route: Custom
-   192.168.0.0/16 Enterprise Router Static route: Custom
-   ============== ================= ====================
+   ============== ================= =====================
+   10.0.0.0/8     Enterprise router Static route (custom)
+   172.16.0.0/12  Enterprise Router Static route (custom)
+   192.168.0.0/16 Enterprise Router Static route (custom)
+   ============== ================= =====================
 
 .. note::
 
    -  If you enable **Auto Add Routes** when creating a VPC attachment, you do not need to manually add static routes to the VPC route table. Instead, the system automatically adds routes (with this enterprise router as the next hop and 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 as the destinations) to all route tables of the VPC.
-   -  If an existing route in the VPC route tables has a destination to 10.0.0.0/8, 172.16.0.0/12, or 192.168.0.0/16, the routes will fail to be added. In this case, do not to enable **Auto Add Routes**. After the attachment is created, manually add routes.
+   -  If an existing route in the VPC route tables has a destination to 10.0.0.0/8, 172.16.0.0/12, or 192.168.0.0/16, the routes will fail to be added. In this case, do not enable **Auto Add Routes**. After the attachment is created, manually add routes.
    -  Do not set the destination of a route (with an enterprise router as the next hop) to 0.0.0.0/0 in the VPC route table. If an ECS in the VPC has an EIP bound, the VPC route table will have a policy-based route with 0.0.0.0/0 as the destination, which has a higher priority than the route with the enterprise router as the next hop. In this case, traffic is forwarded to the EIP and cannot reach the enterprise router.
 
 .. _er_01_0063__table4211920161010:
@@ -109,7 +109,7 @@ The enterprise router, VPCs, and ECSs must be in the same region. You can select
 
    The following resource details are only examples. You can modify them as required.
 
--  One enterprise router.
+-  One enterprise router
 
    .. table:: **Table 5** Enterprise router details
 
@@ -125,7 +125,7 @@ The enterprise router, VPCs, and ECSs must be in the same region. You can select
       |                        |       |                                 |                                 |                         |                         | er-attach-04 |
       +------------------------+-------+---------------------------------+---------------------------------+-------------------------+-------------------------+--------------+
 
--  Four VPCs, each with a unique CIDR block.
+-  Four VPCs, each with a unique CIDR block
 
    .. _er_01_0063__table195012516413:
 
@@ -143,7 +143,7 @@ The enterprise router, VPCs, and ECSs must be in the same region. You can select
       | vpc-demo-04 | 10.2.0.0/16    | subnet-demo-04 | 10.2.1.0/24       | Default route table     |
       +-------------+----------------+----------------+-------------------+-------------------------+
 
--  Four ECSs in four different VPCs.
+-  An ECS in each VPC, a total of four ECSs
 
    .. _er_01_0063__table154151647412:
 

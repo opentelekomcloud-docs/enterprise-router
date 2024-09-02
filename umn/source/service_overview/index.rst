@@ -5,7 +5,7 @@
 Service Overview
 ================
 
--  :ref:`What's an Enterprise Router? <er_01_0002>`
+-  :ref:`What Is an Enterprise Router? <er_01_0002>`
 -  :ref:`Why Using Enterprise Routers <er_01_0003>`
 -  :ref:`When to Use Enterprise Routers <er_01_0004>`
 -  :ref:`Functions <er_01_0005>`
@@ -19,7 +19,7 @@ Service Overview
    :maxdepth: 1
    :hidden: 
 
-   whats_an_enterprise_router
+   what_is_an_enterprise_router
    why_using_enterprise_routers
    when_to_use_enterprise_routers
    functions

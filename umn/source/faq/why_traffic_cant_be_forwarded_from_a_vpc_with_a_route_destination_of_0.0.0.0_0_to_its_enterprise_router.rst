@@ -16,11 +16,13 @@ Traffic cannot be forwarded from a VPC to the enterprise router that it is attac
 
       Refer to solution 1.
 
--  The VPC is being used by ELB, NAT Gateway, VPC Endpoint, or DCS.
+-  ELB, NAT Gateway, VPC Endpoint and DCS are deployed in the VPC.
 
    .. note::
 
       Refer to solution 1 or solution 2.
+
+      When method 2 is used, if a VPC wants to access public network, the traffic from the VPC is forwarded to the enterprise router and then to the public network. For this reason, if a VPC accesses the public network using an EIP, do not use this method.
 
 Solutions
 ---------

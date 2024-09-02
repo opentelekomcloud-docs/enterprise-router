@@ -8,7 +8,7 @@ Creating an Enterprise Router
 Scenarios
 ---------
 
-This section describes how to create an enterprise router.
+Create an enterprise router.
 
 Procedure
 ---------
@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Click **Create Enterprise Router** in the upper right corner.
 

@@ -8,6 +8,7 @@ Attachments
 -  :ref:`Attachment Overview <er_01_0019>`
 -  :ref:`VPC Attachments <er_01_0167>`
 -  :ref:`Virtual Gateway Attachments <er_01_0168>`
+-  :ref:`VPN Gateway Attachments <er_01_0170>`
 -  :ref:`Changing the Name of an Attachment <er_01_0093>`
 -  :ref:`Viewing an Attachment <er_01_0021>`
 
@@ -18,5 +19,6 @@ Attachments
    attachment_overview
    vpc_attachments/index
    virtual_gateway_attachments/index
+   vpn_gateway_attachments/index
    changing_the_name_of_an_attachment
    viewing_an_attachment

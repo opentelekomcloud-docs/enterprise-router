@@ -5,25 +5,26 @@
 How Enterprise Routers Work
 ===========================
 
-You can attach your network connections to an enterprise router to quickly construct diversified networks and meet various service requirements. :ref:`Figure 1 <er_01_0011__fig9264191913235>` shows the process of using an enterprise router, including creating an enterprise router, adding attachments to the enterprise router, and configure routes.
+You can attach your network connections to an enterprise router to quickly construct diversified networks and meet various service requirements. :ref:`Figure 1 <er_01_0011__fig6579195613359>` shows the process of using an enterprise router, including creating an enterprise router, adding attachments to the enterprise router, and configure routes.
 
 Enterprise routers support the following attachments:
 
 -  **VPC attachment**: Attach a VPC from the same region as that of an enterprise router.
 -  **Virtual gateway attachment**: Attach a Direct Connect virtual gateway from the same region as that of an enterprise router.
+-  **VPN gateway attachment**: Attach a VPN gateway from the same region as that of an enterprise router.
 
-.. _er_01_0011__fig9264191913235:
+.. _er_01_0011__fig6579195613359:
 
-.. figure:: /_static/images/en-us_image_0000001530148853.png
+.. figure:: /_static/images/en-us_image_0000001586175602.png
    :alt: **Figure 1** Processing of using an enterprise router
 
    **Figure 1** Processing of using an enterprise router
 
-:ref:`Figure 2 <er_01_0011__fig1520692752815>` shows how an enterprise router works. :ref:`Table 2 <er_01_0011__table133841251278>` describes the traffic flows in detail if an enterprise router is used for networking.
+:ref:`Figure 2 <er_01_0011__fig1050492818281>` shows how an enterprise router works. :ref:`Table 2 <er_01_0011__table133841251278>` describes the traffic flows in detail if an enterprise router is used for networking.
 
-.. _er_01_0011__fig1520692752815:
+.. _er_01_0011__fig1050492818281:
 
-.. figure:: /_static/images/en-us_image_0000001529830673.png
+.. figure:: /_static/images/en-us_image_0000001529950265.png
    :alt: **Figure 2** How an enterprise router works
 
    **Figure 2** How an enterprise router works
@@ -53,12 +54,13 @@ Enterprise routers support the following attachments:
    |                       |                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                 |
    |                       |                                                                                                                                                                                                                                           | -  **VPC attachments**: VPC 1, VPC 2, and VPC 3                                                                                                                                                                                 |
    |                       |                                                                                                                                                                                                                                           | -  **Virtual gateway attachment**: Virtual gateway                                                                                                                                                                              |
+   |                       |                                                                                                                                                                                                                                           | -  **VPN gateway attachment**: VPN gateway                                                                                                                                                                                      |
    +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | 2                     | #. Associate the :ref:`attachments <er_01_0011__section131904714219>` with the :ref:`route tables <er_01_0011__section14844328152418>` of the enterprise router.                                                                          | -  Associate VPC 1 with the default route table of enterprise router 1 and create a propagation to propagate the routes learned from VPC 1 attachment to the default route table and custom route table of enterprise router 1. |
    |                       |                                                                                                                                                                                                                                           | -  Associate VPC 2 with the custom route table of enterprise router 1 and create a propagation to propagate the routes learned from VPC 2 to the custom route table.                                                            |
    |                       |    Each attachment can only be associated with one route table.                                                                                                                                                                           | -  Associate VPC 3 with the custom route table of enterprise router 1, and add static routes for VPC 3 to this custom route table.                                                                                              |
    |                       |                                                                                                                                                                                                                                           | -  Associate the Direct Connect virtual gateway with the default route table of enterprise router 1 and create a propagation to propagate the routes learned from the virtual gateway attachment to the default route table.    |
-   |                       | #. Create :ref:`propagation <er_01_0011__section134131541823>` for the attachments to propagate the :ref:`routes <er_01_0011__section11725172512435>` to the enterprise router's :ref:`route tables <er_01_0011__section14844328152418>`. |                                                                                                                                                                                                                                 |
+   |                       | #. Create :ref:`propagation <er_01_0011__section134131541823>` for the attachments to propagate the :ref:`routes <er_01_0011__section11725172512435>` to the enterprise router's :ref:`route tables <er_01_0011__section14844328152418>`. | -  Associate the VPN gateway with the default route table of enterprise router 1 and create a propagation to propagate the routes learned from the VPN gateway attachment to the default route table.                           |
    |                       |                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                 |
    |                       |    You can create multiple propagation records for the same attachment.                                                                                                                                                                   |                                                                                                                                                                                                                                 |
    +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -79,6 +81,7 @@ If you want to attach a network instance to an enterprise router, you need to ad
    ========================== =================================
    VPC attachment             VPC
    Virtual gateway attachment Virtual gateway of Direct Connect
+   VPN gateway attachment     VPN gateway
    ========================== =================================
 
 .. _er_01_0011__section14844328152418:
@@ -93,7 +96,7 @@ Route tables are used by enterprise routers to forward packets. Route tables con
 .. table:: **Table 4** Route tables
 
    +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Route Table                       | Description                                                                                                                                                                                      |
+   | Route Table Type                  | Description                                                                                                                                                                                      |
    +===================================+==================================================================================================================================================================================================+
    | Custom route table                | You can create multiple custom route tables on an enterprise router and use different routes for flexible communication and isolation between network instances.                                 |
    +-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -119,10 +122,11 @@ Not all attachments can propagate routes. For details, see :ref:`Table 5 <er_01_
 .. table:: **Table 5** Associations
 
    =============== ==============
-   Attachment      Route Learning
+   Attachment Type Route Learning
    =============== ==============
    VPC             Not supported
    Virtual gateway Supported
+   VPN gateway     Supported
    =============== ==============
 
 .. _er_01_0011__section134131541823:
@@ -139,10 +143,11 @@ For VPC attachments, their CIDR blocks are propagated to the enterprise router. 
 .. table:: **Table 6** Propagation
 
    =============== ======================================
-   Attachment      Propagated Routes to Enterprise Router
+   Attachment Type Propagated Routes to Enterprise Router
    =============== ======================================
    VPC             VPC CIDR blocks
    Virtual gateway All routes
+   VPN gateway     All routes
    =============== ======================================
 
 .. _er_01_0011__section11725172512435:
@@ -161,6 +166,7 @@ Routes are used to forward packets. A route contains information such as the des
    +=======================+====================================================================================================+=======================+
    | Propagated routes     | Propagated routes are automatically learned through propagation and cannot be modified or deleted. | -  VPC                |
    |                       |                                                                                                    | -  Virtual gateway    |
+   |                       |                                                                                                    | -  VPN gateway        |
    +-----------------------+----------------------------------------------------------------------------------------------------+-----------------------+
    | Static routes         | Static routes are manually created and can be modified or deleted.                                 | -  VPC                |
    +-----------------------+----------------------------------------------------------------------------------------------------+-----------------------+

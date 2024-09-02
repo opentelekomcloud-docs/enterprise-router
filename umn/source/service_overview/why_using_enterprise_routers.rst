@@ -20,10 +20,10 @@ Enterprise routers can be deployed in multiple availability zones to work in act
 Simplified Management
 ---------------------
 
-Enterprise routers can connect to multiple VPCs, Direct Connect connections, or enterprise routers in different regions and route traffic among them. The network topology is simpler and the network is easier to manage and maintain.
+Enterprise routers can route traffic among instances, simplify network topology and network management, and improve network O&M efficiency. The network topology is simpler and the network is easier to manage and maintain.
 
 -  For cross-VPC communications, you only need to maintain the route tables on the VPCs without requiring so many VPC peering connections.
--  For communications between VPCs and an on-premises data center, the VPCs can connect to an enterprise router and then communicate with the data center over one Direct Connect connection. You do not need to establish a Direct Connect connection between the data center and each of the VPCs.
+-  For communications between VPCs and an on-premises data center, multiple VPCs can connect to an enterprise router and then communicate with the data center over one Direct Connect or VPN connection. You do not need to establish a Direct Connect or VPN connection between the data center and each of the VPCs.
 -  Enterprise routers can automatically learn, update, and synchronize routes, eliminating the need to manually configure or update routes whenever the network topology changes.
 
 Seamless Failover Between Lines

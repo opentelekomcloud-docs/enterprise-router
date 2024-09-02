@@ -15,7 +15,7 @@ Procedure
 
 #. .. _er_01_0068__li154091419132410:
 
-   Log in to the ECS.
+   Log in to an ECS.
 
 #. .. _er_01_0068__li105742451915:
 
