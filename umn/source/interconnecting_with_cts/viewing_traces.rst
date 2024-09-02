@@ -45,6 +45,6 @@ Procedure
 
 #. Click **View Trace**. A dialog box is displayed, in which the trace details are displayed.
 
-   For more information about CTS, see `Cloud Trace Service User Guide <https://docs.otc.t-systems.com/cloud-trace-service/umn/overview/index.html>`__.
+   For more information about CTS, see the `Cloud Trace Service User Guide <https://docs.otc.t-systems.com/cloud-trace-service/umn/service_overview/index.html>`__.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png

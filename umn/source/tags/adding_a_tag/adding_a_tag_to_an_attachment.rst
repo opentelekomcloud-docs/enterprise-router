@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -53,7 +53,7 @@ Procedure
 
    The **Add Tag** dialog box is displayed.
 
-#. Set the tag key and tag value as prompted, and click **OK**.
+#. Set the tag key and tag value as prompted and click **OK**.
 
    View the added tag in the tag list.
 

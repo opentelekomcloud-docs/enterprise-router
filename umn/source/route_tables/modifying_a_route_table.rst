@@ -24,7 +24,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -73,4 +73,4 @@ Procedure
    The route table list is displayed.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png
-.. |image2| image:: /_static/images/en-us_image_0000001188217841.png
+.. |image2| image:: /_static/images/en-us_image_0000001848122286.png

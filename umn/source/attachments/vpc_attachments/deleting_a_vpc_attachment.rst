@@ -13,9 +13,9 @@ This section describes how to delete a VPC attachment from an enterprise router.
 Notes and Constraints
 ---------------------
 
--  Deleting an attachment will also delete its associations, propagations, and propagated routes in the route table.
--  After an attachment is deleted, the next hop of its related static routes will be **Blackhole**. If the destination of a packet matches the blackhole route, the packet will be discarded.
--  If flow logging is enabled for an attachment, flow logging will be disabled, but collected flow logs will not be deleted.
+-  Deleting a VPC attachment will also delete its associations, propagations, and propagated routes in the route table.
+-  If a VPC attachment is deleted, the next hop of its related static routes will be **Blackhole**. If the destination of a packet matches the blackhole route, the packet will be discarded.
+-  If flow logging is enabled for a VPC attachment, flow logging will be disabled, but collected flow logs will not be deleted.
 
 Procedure
 ---------
@@ -26,7 +26,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 

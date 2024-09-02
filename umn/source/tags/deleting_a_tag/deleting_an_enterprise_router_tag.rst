@@ -8,7 +8,7 @@ Deleting an Enterprise Router Tag
 Scenarios
 ---------
 
-Delete a tag from an enterprise router.
+Delete a tag added to an enterprise router.
 
 Procedure
 ---------
@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 

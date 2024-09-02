@@ -24,7 +24,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -36,7 +36,7 @@ Procedure
 
 #. Click the enterprise router name and click **Flow Logs**.
 
-   The flow log list page is displayed.
+   The flow log list is displayed.
 
 
    .. figure:: /_static/images/en-us_image_0000001725954305.png

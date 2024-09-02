@@ -5,10 +5,10 @@
 Attachment Overview
 ===================
 
-You can create an attachment to attach a network instance to an enterprise router. The attachment type varies according to the network instance.
+You can create an attachment to attach a network instance to an enterprise router. The attachment type varies by the type of network instance.
 
 
-.. figure:: /_static/images/en-us_image_0000001294957952.png
+.. figure:: /_static/images/en-us_image_0000001427131632.png
    :alt: **Figure 1** Attachments
 
    **Figure 1** Attachments
@@ -20,5 +20,7 @@ You can create an attachment to attach a network instance to an enterprise route
    +============================+===================================+===========================================================+===========================================+===========================================================+
    | VPC attachment             | VPC                               | :ref:`Creating a VPC Attachment <er_01_0070>`             | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a VPC Attachment <er_01_0072>`             |
    +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+
-   | Virtual gateway attachment | Virtual gateway of Direct Connect | :ref:`Creating a Virtual Gateway Attachment <er_01_0169>` |                                           | :ref:`Deleting a Virtual Gateway Attachment <er_01_0073>` |
+   | Virtual gateway attachment | Virtual gateway of Direct Connect | :ref:`Creating a Virtual Gateway Attachment <er_01_0169>` | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a Virtual Gateway Attachment <er_01_0073>` |
+   +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+
+   | VPN gateway attachment     | VPN gateway                       | :ref:`Creating a VPN Gateway Attachment <er_01_0171>`     | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a VPN Gateway Attachment <er_01_0114>`     |
    +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+

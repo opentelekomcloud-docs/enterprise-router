@@ -21,7 +21,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -50,8 +50,14 @@ Procedure
 
 
    .. figure:: /_static/images/en-us_image_0000001675117976.png
-      :alt: **Figure 3** Viewing attachment details
+      :alt: **Figure 3** Viewing attachment details (virtual gateway attachment)
 
-      **Figure 3** Viewing attachment details
+      **Figure 3** Viewing attachment details (virtual gateway attachment)
+
+
+   .. figure:: /_static/images/en-us_image_0000001988259322.png
+      :alt: **Figure 4** Viewing attachment details (VPN gateway attachment)
+
+      **Figure 4** Viewing attachment details (VPN gateway attachment)
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png

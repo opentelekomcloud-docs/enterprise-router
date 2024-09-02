@@ -5,7 +5,7 @@
 Enterprise Router Custom Policies
 =================================
 
-Custom policies can be created to supplement the system-defined policies of Enterprise Router.
+Custom policies can be created to supplement system-defined policies of Enterprise Router.
 
 You can create custom policies in either of the following ways:
 

@@ -8,7 +8,8 @@ When to Use Enterprise Routers
 You can use enterprise routers to build cloud, on-premises, or hybrid networks. Here are some typical application scenarios:
 
 -  :ref:`Scenario 1: Multiple VPCs communicating or not communicating with each other on the cloud, but communicating with the on-premises data center through a Direct Connect connection <er_01_0004__section16111115210>`
--  :ref:`Scenario 2: Dynamic switchover between multiple Direct Connect connections <er_01_0004__section12577403566>`
+-  :ref:`Scenario 2: Dynamic switchover between Direct Connect connections <er_01_0004__section12577403566>`
+-  :ref:`Scenario 3: Active/Standby Direct Connect and VPN connections <er_01_0004__section198551355121620>`
 
 .. _er_01_0004__section16111115210:
 
@@ -44,8 +45,8 @@ Scenario 1: Multiple VPCs communicating or not communicating with each other on 
 
 .. _er_01_0004__section12577403566:
 
-Scenario 2: Dynamic switchover between multiple Direct Connect connections
---------------------------------------------------------------------------
+Scenario 2: Dynamic switchover between Direct Connect connections
+-----------------------------------------------------------------
 
 
 .. figure:: /_static/images/en-us_image_0000001144919892.png
@@ -65,3 +66,24 @@ Scenario 2: Dynamic switchover between multiple Direct Connect connections
    |                                      | -  Two Direct Connect connections can work in load-sharing mode to ensure high bandwidth and reliability.                                                                                                                                |
    |                                      | -  Two Direct Connect connections can also work in active/standby mode. If one of the connections becomes unavailable, services are switched over to the other available connection within seconds, preventing service interruptions.    |
    +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. _er_01_0004__section198551355121620:
+
+Scenario 3: Active/Standby Direct Connect and VPN connections
+-------------------------------------------------------------
+
+
+.. figure:: /_static/images/en-us_image_0000001730846789.png
+   :alt: **Figure 3** Diagram for scenario 3
+
+   **Figure 3** Diagram for scenario 3
+
+.. table:: **Table 3** Using enterprise routers in scenario 3
+
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Customer Requirements                | You are running workloads in your on-premises data center and on the public cloud. A single Direct Connect connection connects your on-premises data center to the cloud, which cannot ensure reliability.                                                                                                    |
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Pain Points                          | You cannot afford another Direct Connect connection.                                                                                                                                                                                                                                                          |
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Benefits of Using Enterprise Routers | In this example, there are two connections, one Direct Connect connection and a VPN connection. Enterprise Router, Direct Connect, and VPC are used to build a hybrid cloud. When the Direct Connect connection becomes faulty, the VPN connection takes over to ensure that connectivity is not interrupted. |
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

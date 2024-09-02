@@ -14,6 +14,8 @@ Enterprise Router and Other Services
    +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Direct Connect                       | You can attach a Direct Connect virtual gateway to an enterprise router to connect VPCs to an on-premises data center through one Direct Connect connection.               |
    +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Virtual Private Network (VPN)        | You can attach a VPN gateway to an enterprise router to connect VPCs to an on-premises data center through a shared VPN connection.                                        |
+   +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Identity and Access Management (IAM) | You can use IAM to assign different permissions to different users to control their access to enterprise router resources.                                                 |
    +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Cloud Eye                            | You can use Cloud Eye to monitor the network status of enterprise routers and their attachments, and report alarms when exceptions occur, ensuring smooth service running. |

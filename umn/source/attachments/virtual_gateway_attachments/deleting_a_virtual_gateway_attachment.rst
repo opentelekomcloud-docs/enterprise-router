@@ -13,9 +13,9 @@ This section describes how to delete a virtual gateway attachment from an enterp
 Notes and Constraints
 ---------------------
 
--  Deleting an attachment will also delete its associations, propagations, and propagated routes in the route table.
+-  Deleting a VPC attachment will also delete its associations, propagations, and propagated routes in the route table.
 
--  If flow logging is enabled for an attachment, flow logging will be disabled, but collected flow logs will not be deleted.
+-  If flow logging is enabled for a VPC attachment, flow logging will be disabled, but collected flow logs will not be deleted.
 
 Procedure
 ---------
@@ -26,7 +26,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -71,7 +71,13 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+
+   .. figure:: /_static/images/en-us_image_0000002024742029.png
+      :alt: **Figure 2** Deleting a virtual gateway
+
+      **Figure 2** Deleting a virtual gateway
+
+#. Confirm the information and click **Yes**.
 
    A deleted virtual gateway cannot be recovered.
 

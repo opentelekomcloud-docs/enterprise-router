@@ -19,7 +19,7 @@ Procedure
 
 #. Click **Service List** and choose **Networking** > **Enterprise Router**.
 
-   The **Enterprise Router** homepage is displayed.
+   The **Enterprise Router** page is displayed.
 
 #. Search for the target enterprise router by name.
 
@@ -53,7 +53,7 @@ Procedure
       +=======================+================================================================================+=======================+
       | Name                  | Mandatory                                                                      | ershare-cd            |
       |                       |                                                                                |                       |
-      |                       | Enter the sharing name. The name:                                              |                       |
+      |                       | Enter a name for the sharing. The name:                                        |                       |
       |                       |                                                                                |                       |
       |                       | -  Must contain 1 to 64 characters.                                            |                       |
       |                       | -  Can contain letters, digits, underscores (_), hyphens (-), and periods (.). |                       |
@@ -64,4 +64,4 @@ Procedure
    The sharing list is displayed.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png
-.. |image2| image:: /_static/images/en-us_image_0000001243603657.png
+.. |image2| image:: /_static/images/en-us_image_0000001894082625.png

@@ -8,7 +8,7 @@ Overview
 What Is a Tag?
 --------------
 
-Tags are used to identify the cloud resources for purposes of easy categorization and quick search. You can add tags to enterprise routers, attachments, and route tables using either of the methods:
+Tags are used to identify cloud resources for purposes of easy categorization and quick search. You can add tags to enterprise routers, attachments, and route tables using either of the methods:
 
 -  Add tags when you create an enterprise router, attachment, or route table.
 -  Add tags on the details page of an existing enterprise router, attachment, or route table. You can also edit or delete tags.
@@ -46,6 +46,6 @@ Constraints on Using Tags
    -  Can contain a maximum of 43 characters.
    -  Can contain only digits, letters, hyphens (-), underscores (_), and at signs (@).
 
--  Up to 20 tags can be added to each cloud resource.
+-  Up to 20 tags can be added to a cloud resource.
 
 -  For each resource, each tag key must be unique, and each tag key can only have one tag value.

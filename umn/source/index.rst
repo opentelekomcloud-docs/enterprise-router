@@ -7,6 +7,7 @@ Enterprise Router - User Guide
 
    service_overview/index
    getting_started/index
+   permissions_management/index
    enterprise_routers/index
    attachments/index
    route_tables/index
@@ -17,7 +18,6 @@ Enterprise Router - User Guide
    flow_logs/index
    monitoring/index
    interconnecting_with_cts/index
-   permissions_management/index
    tags/index
    quotas/index
    faq/index
