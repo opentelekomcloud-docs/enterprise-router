@@ -8,7 +8,7 @@ Flow Log Overview
 What Is a Flow Log?
 -------------------
 
-Log Tank Service (LTS) can record flow logs for enterprise routers. A flow log records traffic of attachments on enterprise routers in real time. These logs allow you to monitor the network traffic of attachments and analyze network attacks, improving your O&M efficiency.
+Log Tank Service (LTS) can record flow logs for enterprise routers. A flow log records traffic of attachments on enterprise routers in real time. These logs allow you to monitor the network traffic of attachments and analyze network attacks, improving the O&M efficiency.
 
 Flow logs can capture traffic of the following types of attachments:
 
