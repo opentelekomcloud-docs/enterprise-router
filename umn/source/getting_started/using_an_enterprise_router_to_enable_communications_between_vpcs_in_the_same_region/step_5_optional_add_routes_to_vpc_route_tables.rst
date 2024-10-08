@@ -5,10 +5,7 @@
 Step 5: (Optional) Add Routes to VPC Route Tables
 =================================================
 
-Scenarios
----------
-
-This section describes how to add routes to VPC route tables for traffic to route through the enterprise router.
+Perform the following operations to configure the routes for the enterprise router in the VPC route table:
 
 .. note::
 

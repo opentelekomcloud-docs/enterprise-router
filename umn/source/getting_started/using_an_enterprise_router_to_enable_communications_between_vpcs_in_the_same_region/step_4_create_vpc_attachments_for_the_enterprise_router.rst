@@ -5,10 +5,7 @@
 Step 4: Create VPC Attachments for the Enterprise Router
 ========================================================
 
-Scenarios
----------
-
-This section describes how to attach the four VPCs to the enterprise router.
+Perform the following operations to attach the four VPCs to the enterprise router:
 
 Procedure
 ---------

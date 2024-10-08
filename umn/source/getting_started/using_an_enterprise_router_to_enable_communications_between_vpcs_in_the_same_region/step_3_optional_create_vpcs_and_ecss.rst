@@ -5,12 +5,7 @@
 Step 3: (Optional) Create VPCs and ECSs
 =======================================
 
-Scenarios
----------
-
-This section describes how to create VPCs and ECSs.
-
-If you already have VPCs and ECS, skip this section.
+Perform the following operations to create VPCs and ECSs. If you already have VPCs and ECS, skip this step.
 
 Notes and Constraints
 ---------------------

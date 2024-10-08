@@ -45,7 +45,7 @@ In scheme 1, the service VPCs are directly attached to the enterprise router. In
 -  Scheme 2 frees you from the following constraints that scheme 1 has on attaching service VPCs to an enterprise router:
 
    -  If a service VPC is used by ELB, VPC Endpoint, NAT Gateway (private NAT gateways), or DCS, contact customer service to confirm the service compatibility and preferentially use a transit VPC for networking.
-   -  Traffic cannot be forwarded from a VPC to the enterprise router if you set the destination of a route in the VPC route table to 0.0.0.0/0 and:
+   -  Traffic cannot be forwarded from a VPC to the enterprise router if you set the destination of a route to 0.0.0.0/0 in the VPC route table and:
 
       -  An ECS in the VPC has an EIP bound.
       -  The VPC is being used by ELB (either dedicated or shared load balancers), NAT Gateway, VPC Endpoint, and DCS.

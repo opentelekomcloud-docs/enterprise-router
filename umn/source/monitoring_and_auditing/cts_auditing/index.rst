@@ -2,8 +2,8 @@
 
 .. _er_01_0090:
 
-Interconnecting with CTS
-========================
+CTS Auditing
+============
 
 -  :ref:`Key Operations Recorded by CTS <er_01_0091>`
 -  :ref:`Viewing Traces <er_01_0092>`
