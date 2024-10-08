@@ -5,10 +5,7 @@
 Step 6: Verify Connectivity Among VPCs
 ======================================
 
-Scenarios
----------
-
-This section describes how to log in to ECSs and verify the connectivity between VPCs.
+Perform the following operations to log in to each ECS and verify the network connectivity between VPCs:
 
 Procedure
 ---------

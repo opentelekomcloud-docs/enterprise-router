@@ -5,10 +5,7 @@
 Step 2: Create an Enterprise Router
 ===================================
 
-Scenarios
----------
-
-Create an enterprise router.
+To connect VPCs in the same region, you only need to create one enterprise router. Perform the following operations to create an enterprise router:
 
 Procedure
 ---------

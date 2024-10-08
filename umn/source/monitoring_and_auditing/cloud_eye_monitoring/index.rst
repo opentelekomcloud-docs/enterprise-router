@@ -2,8 +2,8 @@
 
 .. _er_01_0102:
 
-Monitoring
-==========
+Cloud Eye Monitoring
+====================
 
 -  :ref:`Supported Metrics <er_01_0103>`
 -  :ref:`Viewing Metrics <er_01_0104>`

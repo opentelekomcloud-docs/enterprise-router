@@ -70,7 +70,7 @@ Enterprise routers support the following attachments:
 Attachments
 -----------
 
-If you want to attach a network instance to an enterprise router, you need to add an attachment of a specific type to the enterprise router. The attachment type varies according to the network instance, as listed in :ref:`Table 3 <er_01_0011__table1989203755810>`.
+If you want to attach a network instance to an enterprise router, you need to add an attachment of a specific type to the enterprise router. The attachment type varies by type of the network instance, as listed in :ref:`Table 3 <er_01_0011__table1989203755810>`.
 
 .. _er_01_0011__table1989203755810:
 

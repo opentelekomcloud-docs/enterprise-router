@@ -22,7 +22,7 @@ How Do I View My Quota?
    The **Service Quota** page is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001764265877.png
+   .. figure:: /_static/images/en-us_image_0000002074955185.png
       :alt: **Figure 1** Service Quota
 
       **Figure 1** Service Quota

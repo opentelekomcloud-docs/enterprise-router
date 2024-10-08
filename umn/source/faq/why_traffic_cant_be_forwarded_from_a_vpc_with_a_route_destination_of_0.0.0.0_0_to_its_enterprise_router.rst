@@ -8,7 +8,7 @@ Why Traffic Can't Be Forwarded from a VPC with a Route Destination of 0.0.0.0/0 
 Scenarios
 ---------
 
-Traffic cannot be forwarded from a VPC to the enterprise router that it is attached to if you set the destination of a route in the VPC route table to 0.0.0.0/0 and:
+Traffic cannot be forwarded from a VPC to the enterprise router that the VPC is attached to if you set the destination of a route to 0.0.0.0/0 in the VPC route table and:
 
 -  An ECS in the VPC has an EIP bound.
 
