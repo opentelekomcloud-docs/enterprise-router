@@ -42,6 +42,8 @@ POST /v3/{project_id}/{resource_type}/{resource_id}/tags
    |                 |                 |                 | -  **vpc-attachment**: VPC attachment             |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **vgw-attachment**: virtual gateway attachment |
+   |                 |                 |                 |                                                   |
+   |                 |                 |                 | -  **vpn-attachment**: VPN gateway attachment     |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
 
 Request Parameters

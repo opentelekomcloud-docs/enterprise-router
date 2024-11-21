@@ -25,39 +25,39 @@ GET /v3/{project_id}/enterprise-router/quotas
 
 .. table:: **Table 2** Query Parameters
 
-   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | Parameter       | Mandatory       | Type            | Description                                                                                                                        |
-   +=================+=================+=================+====================================================================================================================================+
-   | type            | No              | Array           | You can query the quotas of the following resources:                                                                               |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **er_instance**: Total and used quotas of enterprise routers                                                                    |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **vpc_attachment**: Total and used quotas of VPC attachments                                                                    |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **route_table**: Total and used quotas of route tables                                                                          |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **static_route**: Total and used quotas of static routes                                                                        |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **vpc_er**: Total and used quotas of enterprise routers that a VPC can be attached to                                           |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **flow_log**: Total and used quotas of flow logs that can be created for each attachment                                        |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **connect_attachment**: Total and used quotas of Connect attachments. This type of attachments is not supported.                |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **dc_attachment**: Total and used quotas of virtual gateway attachments. This type of attachments is not supported.             |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **vpn_attachment**: Total and used quotas of VPN gateway attachments. This type of attachments is not supported.                |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **peering_attachment**: Total and used quotas of peering connection attachments. This type of attachments is not supported.     |
-   |                 |                 |                 |                                                                                                                                    |
-   |                 |                 |                 | -  **can_attachment**: Total and used quotas of intelligent access gateway attachments. This type of attachments is not supported. |
-   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | erId            | No              | Object          | Enterprise router ID                                                                                                               |
-   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | routeTableId    | No              | Object          | Route table ID                                                                                                                     |
-   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | vpcId           | No              | Object          | VPC ID                                                                                                                             |
-   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+
+   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+   | Parameter       | Mandatory       | Type             | Description                                                                                                                            |
+   +=================+=================+==================+========================================================================================================================================+
+   | type            | No              | Array of strings | You can query the quotas of the following resources:                                                                                   |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **er_instance**: total and used quotas of enterprise routers                                                                        |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **vpc_attachment**: total and used quotas of VPC attachments                                                                        |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **route_table**: total and used quotas of route tables                                                                              |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **static_route**: total and used quotas of static routes                                                                            |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **vpc_er**: total and used quotas of enterprise routers that a VPC can be attached to                                               |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **flow_log**: total and used quotas of flow logs that can be created for each attachment                                            |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **dc_attachment**: total and used quotas of Direct Connect gateway attachments                                                      |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **vpn_attachment**: total and used quotas of VPN gateway attachments                                                                |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **connect_attachment**: total and used quotas of Connect gateway attachments. This type of attachments is not supported now.        |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **peering_attachment**: total and used quotas of peering connection attachments. This type of attachments is not supported now.     |
+   |                 |                 |                  |                                                                                                                                        |
+   |                 |                 |                  | -  **can_attachment**: total and used quotas of intelligent access gateway attachments. This type of attachments is not supported now. |
+   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+   | erId            | No              | Object           | Enterprise router ID                                                                                                                   |
+   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+   | routeTableId    | No              | Object           | Route table ID                                                                                                                         |
+   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+   | vpcId           | No              | Object           | VPC ID                                                                                                                                 |
+   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
 
 Request Parameters
 ------------------

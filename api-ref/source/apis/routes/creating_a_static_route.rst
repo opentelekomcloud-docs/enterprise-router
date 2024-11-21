@@ -77,11 +77,11 @@ Response Parameters
 
 .. table:: **Table 5** Response header parameters
 
-   ============== ===== ======================
-   Parameter      Type  Description
-   ============== ===== ======================
-   X-Client-Token ``-`` Idempotence identifier
-   ============== ===== ======================
+   ============== ====== ======================
+   Parameter      Type   Description
+   ============== ====== ======================
+   X-Client-Token String Idempotence identifier
+   ============== ====== ======================
 
 .. table:: **Table 6** Response body parameters
 
@@ -123,19 +123,17 @@ Response Parameters
 
 .. table:: **Table 8** RouteAttachment
 
-   +-----------------------+-----------------------+-----------------------------------------+
-   | Parameter             | Type                  | Description                             |
-   +=======================+=======================+=========================================+
-   | resource_id           | String                | Attached resource ID                    |
-   +-----------------------+-----------------------+-----------------------------------------+
-   | resource_type         | String                | Attachment type.                        |
-   |                       |                       |                                         |
-   |                       |                       | -  **vpc**: VPC attachments             |
-   |                       |                       |                                         |
-   |                       |                       | -  **vgw**: virtual gateway attachments |
-   +-----------------------+-----------------------+-----------------------------------------+
-   | attachment_id         | String                | Attachment ID                           |
-   +-----------------------+-----------------------+-----------------------------------------+
+   +-----------------------+-----------------------+----------------------------+
+   | Parameter             | Type                  | Description                |
+   +=======================+=======================+============================+
+   | resource_id           | String                | Attached resource ID       |
+   +-----------------------+-----------------------+----------------------------+
+   | resource_type         | String                | Attachment type.           |
+   |                       |                       |                            |
+   |                       |                       | -  **vpc**: VPC attachment |
+   +-----------------------+-----------------------+----------------------------+
+   | attachment_id         | String                | Attachment ID              |
+   +-----------------------+-----------------------+----------------------------+
 
 Example Requests
 ----------------

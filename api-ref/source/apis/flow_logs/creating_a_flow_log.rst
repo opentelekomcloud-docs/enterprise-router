@@ -96,11 +96,11 @@ Response Parameters
 
 .. table:: **Table 5** Response header parameters
 
-   ============== ===== ======================
-   Parameter      Type  Description
-   ============== ===== ======================
-   X-Client-Token ``-`` Idempotence identifier
-   ============== ===== ======================
+   ============== ====== ======================
+   Parameter      Type   Description
+   ============== ====== ======================
+   X-Client-Token String Idempotence identifier
+   ============== ====== ======================
 
 .. table:: **Table 6** Response body parameters
 
