@@ -108,11 +108,11 @@ Response Parameters
 
 .. table:: **Table 6** Response header parameters
 
-   ============== ===== ======================
-   Parameter      Type  Description
-   ============== ===== ======================
-   X-Client-Token ``-`` Idempotence identifier
-   ============== ===== ======================
+   ============== ====== ======================
+   Parameter      Type   Description
+   ============== ====== ======================
+   X-Client-Token String Idempotence identifier
+   ============== ====== ======================
 
 .. table:: **Table 7** Response body parameters
 

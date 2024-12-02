@@ -1,19 +1,19 @@
-:original_name: UpdateAttachment.html
+:original_name: AcceptAttachment.html
 
-.. _UpdateAttachment:
+.. _AcceptAttachment:
 
-Updating an Attachment
-======================
+Accepting a Shared Attachment
+=============================
 
 Function
 --------
 
-This API is used to update basic information about an attachment.
+This API is used to accept a shared attachment.
 
 URI
 ---
 
-PUT /v3/{project_id}/enterprise-router/{er_id}/attachments/{attachment_id}
+POST /v3/{project_id}/enterprise-router/{er_id}/attachments/{attachment_id}/accept
 
 .. table:: **Table 1** Path Parameters
 
@@ -28,52 +28,26 @@ PUT /v3/{project_id}/enterprise-router/{er_id}/attachments/{attachment_id}
 Request Parameters
 ------------------
 
-.. table:: **Table 2** Request body parameters
-
-   +------------+-----------+-------------------------------------------------------------------------------------+------------------------------------------------+
-   | Parameter  | Mandatory | Type                                                                                | Description                                    |
-   +============+===========+=====================================================================================+================================================+
-   | attachment | No        | :ref:`UpdateAttachmentBody <updateattachment__request_updateattachmentbody>` object | Change basic information about the attachment. |
-   +------------+-----------+-------------------------------------------------------------------------------------+------------------------------------------------+
-
-.. _updateattachment__request_updateattachmentbody:
-
-.. table:: **Table 3** UpdateAttachmentBody
-
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | Parameter       | Mandatory       | Type            | Description                                                                                                                          |
-   +=================+=================+=================+======================================================================================================================================+
-   | description     | No              | String          | Supplementary information about the attachment. The value contains a maximum of 36 characters in UUID format with hyphens (-).       |
-   |                 |                 |                 |                                                                                                                                      |
-   |                 |                 |                 | Minimum: **0**                                                                                                                       |
-   |                 |                 |                 |                                                                                                                                      |
-   |                 |                 |                 | Maximum: **255**                                                                                                                     |
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | name            | No              | String          | Attachment name. The value can contain 1 to 64 characters, including letters, digits, underscores (_), hyphens (-), and periods (.). |
-   |                 |                 |                 |                                                                                                                                      |
-   |                 |                 |                 | Minimum: **1**                                                                                                                       |
-   |                 |                 |                 |                                                                                                                                      |
-   |                 |                 |                 | Maximum: **64**                                                                                                                      |
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------+
+None
 
 Response Parameters
 -------------------
 
-**Status code: 200**
+**Status code: 202**
 
-.. table:: **Table 4** Response body parameters
+.. table:: **Table 2** Response body parameters
 
    +------------+----------------------------------------------------------------------------------+------------------------------+
    | Parameter  | Type                                                                             | Description                  |
    +============+==================================================================================+==============================+
-   | attachment | :ref:`AttachmentResponse <updateattachment__response_attachmentresponse>` object | Attachment basic information |
+   | attachment | :ref:`AttachmentResponse <acceptattachment__response_attachmentresponse>` object | Attachment basic information |
    +------------+----------------------------------------------------------------------------------+------------------------------+
    | request_id | String                                                                           | Request ID                   |
    +------------+----------------------------------------------------------------------------------+------------------------------+
 
-.. _updateattachment__response_attachmentresponse:
+.. _acceptattachment__response_attachmentresponse:
 
-.. table:: **Table 5** AttachmentResponse
+.. table:: **Table 3** AttachmentResponse
 
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Parameter             | Type                                                         | Description                                                                                                                                                                          |
@@ -90,7 +64,7 @@ Response Parameters
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | updated_at            | String                                                       | Update time in the format YYYY-MM-DDTHH:mm:ss.sssZ                                                                                                                                   |
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | tags                  | Array of :ref:`Tag <updateattachment__response_tag>` objects | Attachment tags                                                                                                                                                                      |
+   | tags                  | Array of :ref:`Tag <acceptattachment__response_tag>` objects | Attachment tags                                                                                                                                                                      |
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | project_id            | String                                                       | Project ID                                                                                                                                                                           |
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -98,18 +72,14 @@ Response Parameters
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | resource_type         | String                                                       | Attachment type.                                                                                                                                                                     |
    |                       |                                                              |                                                                                                                                                                                      |
-   |                       |                                                              | -  **vgw**: virtual gateway attachment                                                                                                                                               |
-   |                       |                                                              |                                                                                                                                                                                      |
-   |                       |                                                              | -  **vpn**: VPN gateway attachment                                                                                                                                                   |
-   |                       |                                                              |                                                                                                                                                                                      |
    |                       |                                                              | -  **vpc**: VPC attachment                                                                                                                                                           |
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | resource_project_id   | String                                                       | ID of the project that the resource belongs to                                                                                                                                       |
    +-----------------------+--------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. _updateattachment__response_tag:
+.. _acceptattachment__response_tag:
 
-.. table:: **Table 6** Tag
+.. table:: **Table 4** Tag
 
    +-----------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Parameter             | Type                  | Description                                                                                                                                                                                      |
@@ -130,40 +100,34 @@ Response Parameters
 Example Requests
 ----------------
 
-Updating an attachment (not a VPC attachment)
+Accepting a shared attachment
 
 .. code-block:: text
 
-   PUT https://{erouter_endpoint}/v3/08d5a9564a704afda6039ae2babbef3c/enterprise-router/212d3f0b-8496-472d-bc99-05a7c96d6655/attachments/b70aee08-c671-4cad-9fd5-7381d163bcc8
-
-   {
-     "attachment" : {
-       "name" : "attachment",
-       "description" : "attachment"
-     }
-   }
+   POST https://{erouter_endpoint}/v3/08d5a9564a704afda6039ae2babbef3c/enterprise-router/6f83b848-8331-4271-ac0c-ef94b7686402/attachments/6f83b848-8331-4271-ac0c-ef94b7686401/accept
 
 Example Responses
 -----------------
 
-**Status code: 200**
+**Status code: 202**
 
-OK
+Accepted
 
 .. code-block::
 
    {
      "attachment" : {
-       "id" : "b70aee08-c671-4cad-9fd5-7381d163bcc8",
-       "name" : "attachment",
-       "description" : "attachment",
+       "id" : "6f83b848-8331-4271-ac0c-ef94b7686402,",
+       "name" : "vpc attachment,",
+       "description" : "VPC attachment",
        "state" : "avaliable",
        "created_at" : "2020-03-11T15:13:31Z",
        "updated_at" : "2020-03-11T15:13:31Z",
-       "project_id" : "08d5a9564a704afda6039ae2babbef3c",
+       "tags" : [ ],
+       "project_id" : "0605767a9980d5762fbcc00b3537e757",
        "resource_id" : "b715e131-3371-4e17-a2de-4f669e24439a",
        "resource_type" : "vpc",
-       "resource_project_id" : "0605767a9980d5762fbcc00b3537e757"
+       "resource_project_id" : null
      },
      "request_id" : "915a14a6-867b-4af7-83d1-70efceb146f9"
    }
@@ -174,7 +138,7 @@ Status Codes
 =========== ===========
 Status Code Description
 =========== ===========
-200         OK
+202         Accepted
 =========== ===========
 
 Error Codes

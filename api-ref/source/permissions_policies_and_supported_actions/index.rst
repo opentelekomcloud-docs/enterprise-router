@@ -8,7 +8,7 @@ Permissions Policies and Supported Actions
 -  :ref:`Introduction <er_02_0016>`
 -  :ref:`Enterprise Routers <er_02_0017>`
 -  :ref:`VPC Attachments <er_02_0018>`
--  :ref:`Attachments <er_02_0019>`
+-  :ref:`Other Types of Attachments <er_02_0019>`
 -  :ref:`Route Tables <er_02_0020>`
 -  :ref:`Associations <er_02_0021>`
 -  :ref:`Propagations <er_02_0022>`
@@ -24,7 +24,7 @@ Permissions Policies and Supported Actions
    introduction
    enterprise_routers
    vpc_attachments
-   attachments
+   other_types_of_attachments
    route_tables
    associations
    propagations
