@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'er-umn.tex',
-     u'Enterprise Router - User Guide',
+    u'Enterprise Router - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
