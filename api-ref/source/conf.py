@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'er-api-ref.tex',
-     u'Enterprise Router - API Reference',
+    u'Enterprise Router - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
