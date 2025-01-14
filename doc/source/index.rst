@@ -8,6 +8,7 @@ An Enterprise Router is a cloud router service that connects your VPCs and on-pr
    :class: container-sbv
 
    .. service_card::
+      :environment: internal
       :service_type: er
       :umn: This document describes basic concepts, functions for using Enterprise Router.
       :api-ref: This document describes application programming interfaces (APIs) of Enterprise Router (ER) and provides API parameter description and example values.
