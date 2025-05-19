@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to create a flow log to record information about the traffic of enterprise router attachments.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 Only one flow log can be created for an attachment in the same log group and log stream.
 
@@ -70,14 +70,15 @@ Procedure
       |                       | -  Must contain 1 to 64 characters.                                                                                                                                     |                       |
       |                       | -  Can contain letters, digits, underscores (_), hyphens (-), and periods (.).                                                                                          |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Resource Type         | Mandatory                                                                                                                                                               | Virtual gateway       |
+      | Resource Type         | Mandatory                                                                                                                                                               | VPC                   |
       |                       |                                                                                                                                                                         |                       |
       |                       | Select the type of the resource whose traffic information is to be collected. The enterprise router flow log function can capture traffic of the following attachments: |                       |
       |                       |                                                                                                                                                                         |                       |
       |                       | -  VPC                                                                                                                                                                  |                       |
       |                       | -  Virtual gateway: Virtual gateway of Direct Connect                                                                                                                   |                       |
+      |                       | -  VPN gateway                                                                                                                                                          |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-      | Resource              | Mandatory                                                                                                                                                               | vgw-ab                |
+      | Resource              | Mandatory                                                                                                                                                               | vpc-ab                |
       |                       |                                                                                                                                                                         |                       |
       |                       | In the resource list, select the resource whose traffic information is to be collected.                                                                                 |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+

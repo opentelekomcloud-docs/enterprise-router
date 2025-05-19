@@ -29,7 +29,7 @@ Procedure
 
       **Figure 1** Searching for an enterprise router
 
-#. Click the enterprise router name and click **Attachments**.
+#. Click the enterprise router name and click the **Attachments** tab.
 
    The attachment list is displayed.
 
@@ -41,7 +41,7 @@ Procedure
 
 #. Locate the attachment that you want to add a tag to and click its name.
 
-   The attachment details page is displayed.
+   The page showing the attachment details is displayed.
 
 
    .. figure:: /_static/images/en-us_image_0000001726061645.png
@@ -53,8 +53,8 @@ Procedure
 
    The **Add Tag** dialog box is displayed.
 
-#. Set the tag key and tag value as prompted and click **OK**.
+#. Configure the tag key and tag value as prompted, and click **OK**.
 
-   View the added tag in the tag list.
+   You can view the added tag in the tag list.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png

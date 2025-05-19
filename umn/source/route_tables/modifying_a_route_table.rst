@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to modify the name and description of a route table.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 Only the name and description of route tables named **defaultRouteTable** and custom route tables can be changed.
 

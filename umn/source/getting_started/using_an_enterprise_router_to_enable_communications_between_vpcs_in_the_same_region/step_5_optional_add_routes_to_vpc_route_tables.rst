@@ -12,8 +12,8 @@ Perform the following operations to configure the routes for the enterprise rout
    -  If you enable **Auto Add Routes** when creating a VPC attachment, you do not need to manually add static routes to the VPC route table. Instead, the system automatically adds routes (with this enterprise router as the next hop and 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 as the destinations) to all route tables of the VPC.
    -  If an existing route in the VPC route tables has a destination to 10.0.0.0/8, 172.16.0.0/12, or 192.168.0.0/16, the routes will fail to be added. In this case, do not enable **Auto Add Routes**. After the attachment is created, manually add routes.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  If your VPC only has a default route table, all subnets in it are associated with the default route table. You only need to add routes to the default route table for traffic to route through the enterprise router.
 -  If your VPC has multiple custom route tables and different subnets in the VPC are associated with different route tables, you need to add routes to each route table associated with the subnets for traffic to route through the enterprise router.

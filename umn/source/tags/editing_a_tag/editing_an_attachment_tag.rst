@@ -10,8 +10,8 @@ Scenarios
 
 Modify a tag added to an existing attachment.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  Each tag consists of a tag key and a tag value. Only the tag value can be edited.
 -  To edit the tag key, delete it and add it again. For details, see :ref:`Deleting an Attachment Tag <er_01_0088>` and :ref:`Adding a Tag to an Enterprise Router <er_01_0075>`.

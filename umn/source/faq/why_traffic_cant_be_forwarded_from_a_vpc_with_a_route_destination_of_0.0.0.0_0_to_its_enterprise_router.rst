@@ -8,7 +8,7 @@ Why Traffic Can't Be Forwarded from a VPC with a Route Destination of 0.0.0.0/0 
 Scenarios
 ---------
 
-Traffic cannot be forwarded from a VPC to the enterprise router that the VPC is attached to if you set the destination of a route to 0.0.0.0/0 in the VPC route table and:
+Traffic cannot be forwarded from a VPC to its attached enterprise router if the destination of a route with an enterprise router as the next hop is set to 0.0.0.0/0 in the VPC route table and if:
 
 -  An ECS in the VPC has an EIP bound.
 
@@ -16,13 +16,13 @@ Traffic cannot be forwarded from a VPC to the enterprise router that the VPC is 
 
       Refer to solution 1.
 
--  ELB, NAT Gateway, VPC Endpoint and DCS are deployed in the VPC.
+-  The VPC has ELB, NAT Gateway, VPCEP, or DCS deployed.
 
    .. note::
 
       Refer to solution 1 or solution 2.
 
-      When method 2 is used, if a VPC wants to access public network, the traffic from the VPC is forwarded to the enterprise router and then to the public network. For this reason, if a VPC accesses the public network using an EIP, do not use this method.
+      In solution 2, VPC traffic to the public network is routed through the enterprise router. Therefore, do not use this solution if the VPC uses an EIP for public network access.
 
 Solutions
 ---------

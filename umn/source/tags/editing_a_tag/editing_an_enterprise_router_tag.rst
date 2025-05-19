@@ -10,8 +10,8 @@ Scenarios
 
 Edit a tag added to an existing enterprise router.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  Each tag consists of a tag key and a tag value. Only the tag value can be edited.
 -  To edit the tag key, delete it and add it again. For details, see :ref:`Deleting an Enterprise Router Tag <er_01_0087>` and :ref:`Adding a Tag to an Enterprise Router <er_01_0075>`.

@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to delete a sharing. After a sharing is deleted, your enterprise router cannot be used by other users anymore.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 Deleting a sharing will not delete the attachments created by other users.
 
@@ -49,7 +49,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+#. Confirm the information and click **Yes**.
 
    A deleted sharing cannot be recovered.
 

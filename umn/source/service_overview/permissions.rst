@@ -5,7 +5,7 @@
 Permissions
 ===========
 
-If you need to assign different permissions to employees in your enterprise to control their access to your cloud resources, you can use the Identity and Access Management (IAM) for fine-grained permissions management. IAM provides functions such as identity authentication, permissions management, and access control.
+If you need to assign different permissions to employees in your enterprise to control their access to your cloud resources, you can use Identity and Access Management (IAM) for fine-grained permissions management. IAM provides functions such as identity authentication, permissions management, and access control.
 
 On the IAM console, you can create IAM users and assign permissions to control their access to specific resources. For example, you can create IAM users for software developers and assign permissions to allow them to use enterprise router resources but disallow them from performing any high-risk operations such as deleting such resources.
 

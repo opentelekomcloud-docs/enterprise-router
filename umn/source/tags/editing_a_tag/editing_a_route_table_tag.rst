@@ -10,8 +10,8 @@ Scenarios
 
 Edit a tag added to an existing route table.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  Each tag consists of a tag key and a tag value. Only the tag value can be edited.
 -  To edit the tag key, delete it and add it again. For details, see :ref:`Deleting a Route Table Tag <er_01_0089>` and :ref:`Adding a Tag to a Route Table <er_01_0077>`.
