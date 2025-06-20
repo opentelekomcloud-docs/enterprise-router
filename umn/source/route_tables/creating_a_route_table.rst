@@ -60,15 +60,15 @@ Procedure
       |                       | -  Must contain 1 to 64 characters.                                            |                       |
       |                       | -  Can contain letters, digits, underscores (_), hyphens (-), and periods (.). |                       |
       +-----------------------+--------------------------------------------------------------------------------+-----------------------+
-      | Description           | Optional                                                                       | ``-``                 |
-      |                       |                                                                                |                       |
-      |                       | Describe the route table for easy identification.                              |                       |
-      +-----------------------+--------------------------------------------------------------------------------+-----------------------+
       | Tag                   | Optional                                                                       | **Tag key**: test     |
       |                       |                                                                                |                       |
       |                       | Add tags to help you quickly find your route table.                            | **Tag value**: 01     |
       |                       |                                                                                |                       |
       |                       | For details, see :ref:`Overview <er_01_0049>`.                                 |                       |
+      +-----------------------+--------------------------------------------------------------------------------+-----------------------+
+      | Description           | Optional                                                                       | ``-``                 |
+      |                       |                                                                                |                       |
+      |                       | Describe the route table for easy identification.                              |                       |
       +-----------------------+--------------------------------------------------------------------------------+-----------------------+
 
 #. Click **OK**.

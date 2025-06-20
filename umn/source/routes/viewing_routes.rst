@@ -35,7 +35,7 @@ Procedure
    -  Click the enterprise router name and click **Route Tables**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001723064325.png
+   .. figure:: /_static/images/en-us_image_0000002246156645.png
       :alt: **Figure 2** Viewing routes
 
       **Figure 2** Viewing routes

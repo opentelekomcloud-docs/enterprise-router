@@ -10,8 +10,8 @@ Scenarios
 
 Delete an enterprise router route table that is no longer needed.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  If a route table is used as the default association route table and/or default propagation route table, the route table cannot be deleted.
 
@@ -61,7 +61,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+#. Confirm the information and click **Yes**.
 
    A deleted route table cannot be recovered.
 

@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to create a propagation in the route table of an enterprise router.
 
-Notes
------
+Constraints
+-----------
 
 You can create propagations for the same attachment in different route tables.
 
@@ -65,6 +65,7 @@ Procedure
       |                       | -  **VPC**: A VPC is attached to the enterprise router.                                        |                       |
       |                       | -  **Virtual gateway**: A Direct Connect virtual gateway is attached to the enterprise router. |                       |
       |                       | -  **VPN gateway**: A VPN gateway is attached to the enterprise router.                        |                       |
+      |                       | -  **CFW instance**: A VPC border firewall is attached to the enterprise router.               |                       |
       |                       |                                                                                                |                       |
       |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                             |                       |
       +-----------------------+------------------------------------------------------------------------------------------------+-----------------------+

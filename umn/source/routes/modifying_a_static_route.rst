@@ -15,8 +15,8 @@ This section describes how to modify static routes, including common routes and 
 
 Only static routes can be modified. Propagation routes cannot be modified.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 To change the destination of a static route, delete this static route and create another one with your desired destination.
 
@@ -70,7 +70,10 @@ Procedure
       | Attachment Type       | -  If **Blackhole Route** is not enabled, you need to configure this parameter.                                                                                                                                                                                               | VPC                   |
       |                       | -  If **Blackhole Route** is enabled, you do not need to configure this parameter.                                                                                                                                                                                            |                       |
       |                       |                                                                                                                                                                                                                                                                               |                       |
-      |                       | **VPC**: A VPC is attached to the enterprise router.                                                                                                                                                                                                                          |                       |
+      |                       | Select an attachment type.                                                                                                                                                                                                                                                    |                       |
+      |                       |                                                                                                                                                                                                                                                                               |                       |
+      |                       | -  **VPC**: Create a static route for a VPC attachment.                                                                                                                                                                                                                       |                       |
+      |                       | -  **CFW instance**: Create a static route for a VPC border firewall that is attached to the enterprise router.                                                                                                                                                               |                       |
       |                       |                                                                                                                                                                                                                                                                               |                       |
       |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                                                                                                                                                                                                            |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
@@ -78,6 +81,10 @@ Procedure
       |                       | -  If **Blackhole Route** is enabled, you do not need to configure this parameter.                                                                                                                                                                                            |                       |
       |                       |                                                                                                                                                                                                                                                                               |                       |
       |                       | In the drop-down list, select the target attachment.                                                                                                                                                                                                                          |                       |
+      +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+      | Description           | Optional                                                                                                                                                                                                                                                                      | ``-``                 |
+      |                       |                                                                                                                                                                                                                                                                               |                       |
+      |                       | Modify the description of the route.                                                                                                                                                                                                                                          |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 #. Click **OK**.

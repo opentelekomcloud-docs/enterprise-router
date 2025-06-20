@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to create an association in a route table of an enterprise router to associate a specified attachment with the route table.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 Each attachment can only be associated with one route table. Packets from the attachment will be forwarded based on the route table.
 
@@ -65,6 +65,7 @@ Procedure
       |                       | -  **VPC**: A VPC is attached to the enterprise router.                                        |                       |
       |                       | -  **Virtual gateway**: A Direct Connect virtual gateway is attached to the enterprise router. |                       |
       |                       | -  **VPN gateway**: A VPN gateway is attached to the enterprise router.                        |                       |
+      |                       | -  **CFW instance**: A VPC border firewall is attached to the enterprise router.               |                       |
       |                       |                                                                                                |                       |
       |                       | For more information, see :ref:`Attachment Overview <er_01_0019>`.                             |                       |
       +-----------------------+------------------------------------------------------------------------------------------------+-----------------------+

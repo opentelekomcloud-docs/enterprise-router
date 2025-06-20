@@ -5,7 +5,7 @@
 What Is an Enterprise Router?
 =============================
 
-An enterprise router connects VPCs and on-premises networks to build a central hub network. It has high specifications, provides high bandwidth, and delivers high performance. Enterprise routers use the Border Gateway Protocol (BGP) to learn, dynamically select, or switch between routes, thereby ensuring the service continuity and significantly improving network scalability and O&M efficiency.
+An enterprise router connects VPCs and on-premises networks to set up a central hub network. It has high specifications, provides high bandwidth, and delivers high performance. Enterprise routers use the Border Gateway Protocol (BGP) to learn, dynamically select, or switch between routes, thereby ensuring the service continuity and significantly improving network scalability and O&M efficiency.
 
 :ref:`Figure 1 <er_01_0002__fig1160410331975>` and :ref:`Figure 2 <er_01_0002__fig12604833873>` show the networks with and without enterprise routers, respectively. :ref:`Table 1 <er_01_0002__table126045339718>` compares the two networks.
 
@@ -37,4 +37,4 @@ An enterprise router connects VPCs and on-premises networks to build a central h
    |                                                            |                                                                                            |                                                                                                                                                                                                            | -  Multiple lines work in load-sharing or active/standby mode to achieve higher availability. |
    +------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
-The comparison shows that the network with enterprise routers is simpler and highly scalable and is also easier to maintain.
+The comparison shows that the network with enterprise routers is simpler, more scalable, and easier to maintain.

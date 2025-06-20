@@ -27,7 +27,7 @@ Constraints
 
 -  Enterprise routers cannot be used together with virtual IP addresses of VPCs. If virtual IP addresses are used, contact customer service.
 
--  Traffic cannot be forwarded from a VPC to the enterprise router that the VPC is attached to if you set the destination of a route whose next hop is the enterprise router to 0.0.0.0/0 in the VPC route table and if:
+-  Traffic cannot be forwarded from a VPC to its attached enterprise router if the destination of a route with an enterprise router as the next hop is set to 0.0.0.0/0 in the VPC route table and if:
 
    -  An ECS in the VPC has an EIP bound.
    -  The VPC is being used by ELB, NAT Gateway, VPC Endpoint, or Distributed Cache Service (DCS).

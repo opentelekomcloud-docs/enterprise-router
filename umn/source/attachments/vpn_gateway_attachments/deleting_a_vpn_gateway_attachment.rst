@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to delete a VPN gateway attachment from an enterprise router.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  Deleting a VPC attachment will also delete its associations, propagations, and propagated routes in the route table.
 

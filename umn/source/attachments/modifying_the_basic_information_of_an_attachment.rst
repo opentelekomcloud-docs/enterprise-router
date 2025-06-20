@@ -2,13 +2,13 @@
 
 .. _er_01_0093:
 
-Changing the Name of an Attachment
-==================================
+Modifying the Basic Information of an Attachment
+================================================
 
 Scenarios
 ---------
 
-This section describes how to modify the name of an attachment.
+This section describes how to modify the basic information of an enterprise router attachment, including the name and description.
 
 Procedure
 ---------
@@ -34,13 +34,13 @@ Procedure
    -  In the upper right corner of the enterprise router, click **Manage Attachment**.
    -  Click the enterprise router name and click **Attachments**.
 
-#. In the attachment list, click |image2| next to the attachment name.
+#. In the attachment list, locate the target attachment and click **Modify** in the **Operation** column.
 
-   The **Edit** dialog box is displayed.
+   The **Modify Attachment** dialog box is displayed.
 
-#. Enter a new name.
+#. Enter information as prompted.
 
-   .. table:: **Table 1** Parameter description
+   .. table:: **Table 1** Parameters for modifying basic information of an attachment
 
       +-----------------------+--------------------------------------------------------------------------------+-----------------------+
       | Parameter             | Setting                                                                        | Example Value         |
@@ -52,10 +52,13 @@ Procedure
       |                       | -  Must contain 1 to 64 characters.                                            |                       |
       |                       | -  Can contain letters, digits, underscores (_), hyphens (-), and periods (.). |                       |
       +-----------------------+--------------------------------------------------------------------------------+-----------------------+
+      | Description           | Optional                                                                       | ``-``                 |
+      |                       |                                                                                |                       |
+      |                       | Describe the attachment for easy identification.                               |                       |
+      +-----------------------+--------------------------------------------------------------------------------+-----------------------+
 
 #. Click **OK**.
 
    The attachment list is displayed.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png
-.. |image2| image:: /_static/images/en-us_image_0000001894085841.png

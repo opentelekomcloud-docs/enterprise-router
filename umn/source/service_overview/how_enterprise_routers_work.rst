@@ -12,6 +12,7 @@ Enterprise routers support the following attachments:
 -  **VPC attachment**: Attach a VPC from the same region as that of an enterprise router.
 -  **Virtual gateway attachment**: Attach a Direct Connect virtual gateway from the same region as that of an enterprise router.
 -  **VPN gateway attachment**: Attach a VPN gateway from the same region as that of an enterprise router.
+-  **CFW instance attachment**: Connect an enterprise router to the VPC border firewall in the same region.
 
 .. _er_01_0011__fig6579195613359:
 
@@ -82,6 +83,7 @@ If you want to attach a network instance to an enterprise router, you need to ad
    VPC attachment             VPC
    Virtual gateway attachment Virtual gateway of Direct Connect
    VPN gateway attachment     VPN gateway
+   CFW instance attachment    VPC border firewall
    ========================== =================================
 
 .. _er_01_0011__section14844328152418:
@@ -127,6 +129,7 @@ Not all attachments can propagate routes. For details, see :ref:`Table 5 <er_01_
    VPC             Not supported
    Virtual gateway Supported
    VPN gateway     Supported
+   CFW instance    Not supported
    =============== ==============
 
 .. _er_01_0011__section134131541823:
@@ -142,13 +145,14 @@ For VPC attachments, their CIDR blocks are propagated to the enterprise router. 
 
 .. table:: **Table 6** Propagation
 
-   =============== ======================================
-   Attachment Type Propagated Routes to Enterprise Router
-   =============== ======================================
+   =============== ========================================
+   Attachment Type Propagated Info
+   =============== ========================================
    VPC             VPC CIDR blocks
    Virtual gateway All routes
    VPN gateway     All routes
-   =============== ======================================
+   CFW instance    CIDR blocks of the VPCs protected by CFW
+   =============== ========================================
 
 .. _er_01_0011__section11725172512435:
 
@@ -167,6 +171,8 @@ Routes are used to forward packets. A route contains information such as the des
    | Propagated routes     | Propagated routes are automatically learned through propagation and cannot be modified or deleted. | -  VPC                |
    |                       |                                                                                                    | -  Virtual gateway    |
    |                       |                                                                                                    | -  VPN gateway        |
+   |                       |                                                                                                    | -  CFW instance       |
    +-----------------------+----------------------------------------------------------------------------------------------------+-----------------------+
    | Static routes         | Static routes are manually created and can be modified or deleted.                                 | -  VPC                |
+   |                       |                                                                                                    | -  CFW instance       |
    +-----------------------+----------------------------------------------------------------------------------------------------+-----------------------+

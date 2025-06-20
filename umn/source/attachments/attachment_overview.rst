@@ -16,11 +16,13 @@ You can create an attachment to attach a network instance to an enterprise route
 .. table:: **Table 1** Attachments
 
    +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+
-   | Attachment Type            | Network Instance                  | Create Attachment                                         | View Attachment                           | Delete Attachment                                         |
+   | Attachment Type            | Network Instance                  | Creating Attachments                                      | Viewing Attachments                       | Deleting Attachments                                      |
    +============================+===================================+===========================================================+===========================================+===========================================================+
    | VPC attachment             | VPC                               | :ref:`Creating a VPC Attachment <er_01_0070>`             | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a VPC Attachment <er_01_0072>`             |
    +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+
    | Virtual gateway attachment | Virtual gateway of Direct Connect | :ref:`Creating a Virtual Gateway Attachment <er_01_0169>` | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a Virtual Gateway Attachment <er_01_0073>` |
    +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+
    | VPN gateway attachment     | VPN gateway                       | :ref:`Creating a VPN Gateway Attachment <er_01_0171>`     | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a VPN Gateway Attachment <er_01_0114>`     |
+   +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+
+   | Cloud Firewall (CFW)       | CFW instance                      | :ref:`Creating a CFW Instance Attachment <er_01_0179>`    | :ref:`Viewing an Attachment <er_01_0021>` | :ref:`Deleting a CFW Instance Attachment <er_01_0180>`    |
    +----------------------------+-----------------------------------+-----------------------------------------------------------+-------------------------------------------+-----------------------------------------------------------+

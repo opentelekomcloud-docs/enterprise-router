@@ -2,8 +2,8 @@
 
 .. _er_01_0022:
 
-Monitoring and Auditing
-=======================
+Monitoring and Audit
+====================
 
 -  :ref:`Cloud Eye Monitoring <er_01_0102>`
 -  :ref:`CTS Auditing <er_01_0090>`

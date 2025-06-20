@@ -12,7 +12,7 @@ You can create custom policies in either of the following ways:
 -  Visual editor: Select cloud services, actions, resources, and request conditions. This does not require knowledge of policy syntax.
 -  JSON: Edit JSON policies from scratch or based on an existing policy.
 
-For details about how to create custom policies, see `Creating a Custom Policy <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/permissions/creating_a_custom_policy.html>`__. The following section contains examples of common Enterprise Router custom policies.
+For details about how to create custom policies, see `Creating a Custom Policy <https://docs.otc.t-systems.com/identity-access-management/umn/user_guide/permissions/creating_a_custom_policy.html>`__. The following are examples of common Enterprise Router custom policies.
 
 Example Custom Policies
 -----------------------

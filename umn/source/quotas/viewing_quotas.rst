@@ -19,10 +19,16 @@ How Do I View My Quota?
 
 #. In the upper right corner of the page, click |image2|.
 
-   The **Service Quota** page is displayed.
+   The **Service Quota** page is displayed. The following quota items are not supported:
+
+   -  CAN Attachment
+   -  Connect Attachment
+   -  multicast domain
+   -  multicast domain association
+   -  CC Attachment
 
 
-   .. figure:: /_static/images/en-us_image_0000002074955185.png
+   .. figure:: /_static/images/en-us_image_0000002277279113.png
       :alt: **Figure 1** Service Quota
 
       **Figure 1** Service Quota

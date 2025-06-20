@@ -13,7 +13,7 @@ This section describes how to view details about a flow log, including the attac
 Constraints
 -----------
 
-Flow logs are generated every 10 minutes. After creating a VPC flow log, you need to wait about 10 minutes before you can view the flow log record.
+By default, flow logs are generated every 10 minutes. After creating a VPC flow log, you need to wait about 10 minutes before you can view the flow log record.
 
 Procedure
 ---------
@@ -46,9 +46,13 @@ Procedure
 
 #. Locate the target flow log and click **View Log Record** in the **Operation** column.
 
-   The LTS console is displayed.
+   The **Log Management** page is displayed.
 
-#. View details about the flow log.
+#. In the log group list, locate the target log group and click the name of the target log stream under it.
+
+   The log stream details page is displayed.
+
+#. Enter key information in the search box to quickly find the flow log to be viewed.
 
    Flow log format:
 
@@ -97,13 +101,13 @@ Procedure
       |                       |                                                                                                                                    |                                      |
       |                       | For more information, see `Internet Protocol Numbers <http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml>`__. |                                      |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
-      | packets               | Number of data packets during the flow log capture                                                                                 | 1                                    |
+      | packets               | Number of data packets during the flow log collection                                                                              | 1                                    |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
-      | bytes                 | Size of the data packet during the flow log capture                                                                                | 96                                   |
+      | bytes                 | Size of the data packet during the flow log collection                                                                             | 96                                   |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
-      | start                 | The time when the capture started, in Unix seconds                                                                                 | 1548752136                           |
+      | start                 | The time when the collection started, in Unix seconds                                                                              | 1548752136                           |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
-      | end                   | The time when the capture ended, in Unix seconds                                                                                   | 1548752736                           |
+      | end                   | The time when the collection ended, in Unix seconds                                                                                | 1548752736                           |
       +-----------------------+------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
       | direct                | Traffic direction                                                                                                                  | egress                               |
       |                       |                                                                                                                                    |                                      |

@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to delete a propagation from the route table of an enterprise router.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 Propagated routes are learned through propagation. Deleting a propagation will also delete the propagated routes.
 
@@ -49,7 +49,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+#. Confirm the information and click **Yes**.
 
    A deleted propagation cannot be recovered.
 

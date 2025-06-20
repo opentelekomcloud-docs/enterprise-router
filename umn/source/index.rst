@@ -16,7 +16,7 @@ Enterprise Router - User Guide
    routes/index
    sharing/index
    flow_logs/index
-   monitoring_and_auditing/index
+   monitoring_and_audit/index
    tags/index
    quotas/index
    faq/index

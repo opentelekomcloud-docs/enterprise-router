@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to delete a flow log.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 After a flow log is deleted, information captured in the flow log is still available.
 

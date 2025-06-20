@@ -29,7 +29,7 @@ Procedure
 
       **Figure 1** Searching for an enterprise router
 
-#. Click the enterprise router name and click **Tags**.
+#. Click the enterprise router name and click the **Tags** tab.
 
    The tag list is displayed.
 
@@ -43,8 +43,8 @@ Procedure
 
    The **Add Tag** dialog box is displayed.
 
-#. Set the tag key and tag value as prompted and click **OK**.
+#. Configure the tag key and tag value as prompted, and click **OK**.
 
-   View the added tag in the tag list.
+   You can view the added tag in the tag list.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png

@@ -5,12 +5,12 @@
 Viewing Traces
 ==============
 
-**Scenarios**
--------------
+Scenarios
+---------
 
-After CTS is enabled, CTS starts recording operations on cloud resources. The CTS management console stores the last seven days of operation records.
+After CTS is enabled, it starts recording operations on cloud resources. You can view the operation records of the last seven days on the CTS console.
 
-This section describes how to query or export the last seven days of operation records on the management console.
+This section describes how to query or export the operation records of the last seven days on the CTS console.
 
 Procedure
 ---------
@@ -31,12 +31,7 @@ Procedure
 
    The following filters are available:
 
-   -  **Trace Source**, **Resource Type**, and **Search By**
-
-      -  If you select **Trace name** for **Search By**, select a trace name.
-      -  If you select **Resource ID** for **Search By**, select or enter a resource ID.
-      -  If you select **Resource name** for **Search By**, select or enter a resource name.
-
+   -  If you select **Resource ID** for **Search By**, enter a resource ID.
    -  **Operator**: Select a specific operator (a user other than an account).
    -  **Trace Status**: Select **All trace statuses**, **Normal**, **Warning**, or **Incident**.
    -  Time range: Select any time range in the last seven days.
