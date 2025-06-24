@@ -8,5 +8,5 @@ Quota Management
 +-----------------+-----------------------------------------------+----------------+-------------+--------------------+
 | Permission      | API                                           | Action         | IAM Project | Enterprise Project |
 +=================+===============================================+================+=============+====================+
-| Querying quotas | GET /v3/{project_id}/enterprise-router/quotas | er:quotas:list | Y           | Y                  |
+| Querying quotas | GET /v3/{project_id}/enterprise-router/quotas | er:quotas:list | Y           | x                  |
 +-----------------+-----------------------------------------------+----------------+-------------+--------------------+
