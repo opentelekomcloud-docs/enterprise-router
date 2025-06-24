@@ -77,7 +77,7 @@ Procedure
 
       **Figure 2** Deleting a virtual gateway
 
-#. Confirm the information and click **Yes**.
+#. Click **OK**.
 
    A deleted virtual gateway cannot be recovered.
 
