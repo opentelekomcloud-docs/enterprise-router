@@ -25,39 +25,53 @@ GET /v3/{project_id}/enterprise-router/quotas
 
 .. table:: **Table 2** Query Parameters
 
-   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | Parameter       | Mandatory       | Type             | Description                                                                                                                            |
-   +=================+=================+==================+========================================================================================================================================+
-   | type            | No              | Array of strings | You can query the quotas of the following resources:                                                                                   |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **er_instance**: total and used quotas of enterprise routers                                                                        |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **vpc_attachment**: total and used quotas of VPC attachments                                                                        |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **route_table**: total and used quotas of route tables                                                                              |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **static_route**: total and used quotas of static routes                                                                            |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **vpc_er**: total and used quotas of enterprise routers that a VPC can be attached to                                               |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **flow_log**: total and used quotas of flow logs that can be created for each attachment                                            |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **dc_attachment**: total and used quotas of Direct Connect gateway attachments                                                      |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **vpn_attachment**: total and used quotas of VPN gateway attachments                                                                |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **connect_attachment**: total and used quotas of Connect gateway attachments. This type of attachments is not supported now.        |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **peering_attachment**: total and used quotas of peering connection attachments. This type of attachments is not supported now.     |
-   |                 |                 |                  |                                                                                                                                        |
-   |                 |                 |                  | -  **can_attachment**: total and used quotas of intelligent access gateway attachments. This type of attachments is not supported now. |
-   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | erId            | No              | Object           | Enterprise router ID                                                                                                                   |
-   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | routeTableId    | No              | Object           | Route table ID                                                                                                                         |
-   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | vpcId           | No              | Object           | VPC ID                                                                                                                                 |
-   +-----------------+-----------------+------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Parameter       | Mandatory       | Type             | Description                                                                                                                                                         |
+   +=================+=================+==================+=====================================================================================================================================================================+
+   | limit           | No              | Integer          | Number of records on each page. Value range: **0** to **2000**                                                                                                      |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | Minimum: **0**                                                                                                                                                      |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | Maximum: **2000**                                                                                                                                                   |
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | marker          | No              | String           | ID of the last enterprise router on the previous page. If this parameter is left blank, the first page is queried. This parameter must be used together with limit. |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | Minimum: **1**                                                                                                                                                      |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | Maximum: **128**                                                                                                                                                    |
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | type            | No              | Array of strings | Quota types that can be filtered:                                                                                                                                   |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **er_instance**: Total and used quotas of enterprise routers.                                                                                                    |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **vpc_attachment**: Total and used quotas of VPC attachments.                                                                                                    |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **vpn_attachment**: Total and used quotas of VPN gateway attachments.                                                                                            |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **peering_attachment**: Total and used quotas of peering connection attachments. This type is not supported.                                                     |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **can_attachment**: Total and used quotas of intelligent access gateway attachments. This type is not supported.                                                 |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **connect_attachment**: Total and used quotas of Connect attachments. This type is not supported.                                                                |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **multicast_domain**: Total and used quotas of multicast domains. This type is not supported.                                                                    |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **multicast_domain_association**: Total and used quotas of multicast domain associations. This type is not supported.                                            |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **route_table**: Total and used quotas of route tables.                                                                                                          |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **static_route**: Total and used quotas of static routes.                                                                                                        |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **vpc_er**: Total and used quotas of enterprise routers that a VPC can be attached to.                                                                           |
+   |                 |                 |                  |                                                                                                                                                                     |
+   |                 |                 |                  | -  **flow_log**: Total and used quotas of flow logs that can be created for each attachment.                                                                        |
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | erId            | No              | Object           | Enterprise router ID                                                                                                                                                |
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | routeTableId    | No              | Object           | Route table ID                                                                                                                                                      |
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | vpcId           | No              | Object           | VPC ID                                                                                                                                                              |
+   +-----------------+-----------------+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Request Parameters
 ------------------
@@ -71,11 +85,13 @@ Response Parameters
 
 .. table:: **Table 3** Response body parameters
 
-   +-----------+------------------------------------------------------------+--------------------+
-   | Parameter | Type                                                       | Description        |
-   +===========+============================================================+====================+
-   | quotas    | Array of :ref:`Quota <showquotas__response_quota>` objects | Used quota details |
-   +-----------+------------------------------------------------------------+--------------------+
+   +-----------+------------------------------------------------------------+------------------------------+
+   | Parameter | Type                                                       | Description                  |
+   +===========+============================================================+==============================+
+   | quotas    | Array of :ref:`Quota <showquotas__response_quota>` objects | Used quota details           |
+   +-----------+------------------------------------------------------------+------------------------------+
+   | page_info | :ref:`PageInfo <showquotas__response_pageinfo>` object     | Pagination query information |
+   +-----------+------------------------------------------------------------+------------------------------+
 
 .. _showquotas__response_quota:
 
@@ -92,6 +108,18 @@ Response Parameters
    +-------------+--------+---------------------------------------------------------------------------+
    | unit        | String | Measurement unit of used quotas                                           |
    +-------------+--------+---------------------------------------------------------------------------+
+
+.. _showquotas__response_pageinfo:
+
+.. table:: **Table 5** PageInfo
+
+   +---------------+---------+-------------------------------------------------------------------------------------------------------------------+
+   | Parameter     | Type    | Description                                                                                                       |
+   +===============+=========+===================================================================================================================+
+   | next_marker   | String  | Marker of the next page. The value is the resource UUID. If the value is empty, the resource is on the last page. |
+   +---------------+---------+-------------------------------------------------------------------------------------------------------------------+
+   | current_count | Integer | Number of resources in the list                                                                                   |
+   +---------------+---------+-------------------------------------------------------------------------------------------------------------------+
 
 Example Requests
 ----------------
@@ -115,6 +143,11 @@ OK
      "quotas" : [ {
        "quota_key" : "er_instance",
        "quota_limit" : 1,
+       "used" : 0,
+       "unit" : "count"
+     }, {
+       "quota_key" : "vpc_attachment",
+       "quota_limit" : 2,
        "used" : 0,
        "unit" : "count"
      }, {
@@ -157,7 +190,11 @@ OK
        "quota_limit" : 20,
        "used" : 4,
        "unit" : "count"
-     } ]
+     } ],
+     "page_info" : {
+       "next_marker" : "1",
+       "current_count" : 9
+     }
    }
 
 Status Codes

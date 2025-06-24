@@ -33,7 +33,7 @@ POST /v3/{project_id}/{resource_type}/{resource_id}/tags
    +-----------------+-----------------+-----------------+---------------------------------------------------+
    | resource_id     | Yes             | String          | Resource ID                                       |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
-   | resource_type   | Yes             | String          | Resource type.                                    |
+   | resource_type   | Yes             | String          | Tagged resource type.                             |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **instance**: enterprise router                |
    |                 |                 |                 |                                                   |
@@ -44,6 +44,8 @@ POST /v3/{project_id}/{resource_type}/{resource_id}/tags
    |                 |                 |                 | -  **vgw-attachment**: virtual gateway attachment |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **vpn-attachment**: VPN gateway attachment     |
+   |                 |                 |                 |                                                   |
+   |                 |                 |                 | -  **cfw-attachment**: CFW instance attachment    |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
 
 Request Parameters
@@ -61,24 +63,42 @@ Request Parameters
 
 .. table:: **Table 3** Tag
 
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Parameter       | Mandatory       | Type            | Description                                                                                                                                                                                      |
-   +=================+=================+=================+==================================================================================================================================================================================================+
-   | key             | No              | String          | Tag key. The value contain up to 128 characters (36 characters on the console), including uppercase letters, lowercase letters, digits, hyphens (-), underscores (_), and at signs (@).          |
-   |                 |                 |                 |                                                                                                                                                                                                  |
-   |                 |                 |                 | Minimum: **1**                                                                                                                                                                                   |
-   |                 |                 |                 |                                                                                                                                                                                                  |
-   |                 |                 |                 | Maximum: **128**                                                                                                                                                                                 |
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | value           | No              | String          | Tag value. The value contain up to 128 characters in API (43 characters on the console), including uppercase letters, lowercase letters, digits, hyphens (-), underscores (_), and at signs (@). |
-   |                 |                 |                 |                                                                                                                                                                                                  |
-   |                 |                 |                 | Minimum: **0**                                                                                                                                                                                   |
-   |                 |                 |                 |                                                                                                                                                                                                  |
-   |                 |                 |                 | Maximum: **128**                                                                                                                                                                                 |
-   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------+
+   | Parameter       | Mandatory       | Type            | Description                                                                              |
+   +=================+=================+=================+==========================================================================================+
+   | key             | No              | String          | Tag key. The key:                                                                        |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Can contain UTF-8 letters, digits, spaces, and the following characters: ``_.:=+-@.`` |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Cannot start with *sys* because it indicates a system tag.                            |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Cannot be empty (the length cannot be 0).                                             |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Can contain 1 to 128 characters.                                                      |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | Minimum: **1**                                                                           |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | Maximum: **128**                                                                         |
+   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------+
+   | value           | No              | String          | Tag value. The value:                                                                    |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Can contain UTF-8 letters, digits, spaces, and the following characters: ``_.:=+-@.`` |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Can be empty or null.                                                                 |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | -  Can contain 0 to 255 characters.                                                      |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | Minimum: **0**                                                                           |
+   |                 |                 |                 |                                                                                          |
+   |                 |                 |                 | Maximum: **255**                                                                         |
+   +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------+
 
 Response Parameters
 -------------------
+
+**Status code: 204**
+
+No Content
 
 None
 
