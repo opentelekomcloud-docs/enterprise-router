@@ -61,7 +61,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+#. Confirm the information and click **OK**.
 
    A deleted VPN gateway cannot be recovered.
 
