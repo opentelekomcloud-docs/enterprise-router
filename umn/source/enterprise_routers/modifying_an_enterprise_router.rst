@@ -13,6 +13,7 @@ This section describes how to modify settings of an enterprise router. You can:
 -  Modify the name of an enterprise router.
 -  Enable or disable **Default Route Table Association**.
 -  Enable or disable **Default Route Table Propagation**.
+-  Enable or disable **Auto Accept Shared Attachments**.
 
 Procedure
 ---------
@@ -63,7 +64,7 @@ Procedure
       |                                 |                                                                                                                                                                   |                       |
       |                                 | Enabling **Default Route Table Association** can simplify network configurations. After this function is enabled:                                                 |                       |
       |                                 |                                                                                                                                                                   |                       |
-      |                                 | a. Select a route table for **Default Association Route Table**.                                                                                                  |                       |
+      |                                 | a. Select a route table for **Association Route Table**.                                                                                                          |                       |
       |                                 | b. If you create an attachment to this enterprise router, the attachment will be automatically associated with the default association route table.               |                       |
       +---------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Association Route Table         | Optional                                                                                                                                                          | er-rtb-b931           |
@@ -80,7 +81,7 @@ Procedure
       |                                 |                                                                                                                                                                   |                       |
       |                                 | Enabling **Default Route Table Propagation** can simplify network configurations. After this function is enabled:                                                 |                       |
       |                                 |                                                                                                                                                                   |                       |
-      |                                 | a. Select a route table for **Association Route Table**.                                                                                                          |                       |
+      |                                 | a. Select a route table for **Propagation Route Table**.                                                                                                          |                       |
       |                                 | b. If you create an attachment to this enterprise router, the attachment will be automatically propagated to the default propagation route table.                 |                       |
       +---------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Propagation Route Table         | Optional                                                                                                                                                          | er-rtb-b931           |

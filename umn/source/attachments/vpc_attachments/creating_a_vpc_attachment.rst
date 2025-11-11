@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to attach a VPC to an enterprise router so that the VPCs attached to the enterprise router can communicate with each other.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  If you use the propagated routes of a VPC attachment, the route table of the enterprise router automatically learns the VPC CIDR block as the destination of routes. The CIDR block cannot be changed. To ensure that routes in the route table do not conflict, the CIDR blocks of all VPCs attached to the enterprise router cannot overlap. Otherwise, communication fails.
 -  If your existing VPCs have overlapping CIDR blocks, do not use propagated routes. Instead, manually add static routes to the route table of the enterprise router. The destination of the routes can be VPC subnet CIDR blocks or smaller ones.
@@ -79,6 +79,7 @@ Procedure
       |                       |                                                                                                                                                                                                                                                                                                                                                                 |                       |
       |                       |    -  You can select any subnet in the VPC. All subnets in the same VPC can communicate with each other by default and the enterprise router can connect to the entire VPC.                                                                                                                                                                                     |                       |
       |                       |    -  You are advised to select a subnet that is dedicated for connecting to the enterprise router. To ensure that the subnet has enough IP addresses for the system and the enterprise router, make the subnet mask /28 or smaller.                                                                                                                            |                       |
+      |                       |    -  The traffic from the enterprise router to the VPC will be routed based on the VPC route table associated with the subnet.                                                                                                                                                                                                                                 |                       |
       +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Auto Add Routes       | Optional                                                                                                                                                                                                                                                                                                                                                        | Enable                |
       |                       |                                                                                                                                                                                                                                                                                                                                                                 |                       |

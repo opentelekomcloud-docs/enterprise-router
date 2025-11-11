@@ -16,6 +16,8 @@ Enterprise Router and Other Services
    +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Virtual Private Network (VPN)        | You can attach a VPN gateway to an enterprise router to connect VPCs to an on-premises data center through a shared VPN connection.                                        |
    +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Cloud Firewall (CFW)                 | You can use CFW to protect traffic between VPCs.                                                                                                                           |
+   +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Identity and Access Management (IAM) | You can use IAM to assign different permissions to different users to control their access to enterprise router resources.                                                 |
    +--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Cloud Eye                            | You can use Cloud Eye to monitor the network status of enterprise routers and their attachments, and report alarms when exceptions occur, ensuring smooth service running. |

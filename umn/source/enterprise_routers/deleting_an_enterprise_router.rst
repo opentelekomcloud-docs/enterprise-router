@@ -10,8 +10,8 @@ Scenarios
 
 Delete an enterprise router that is no longer needed.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  An enterprise router that has attachments cannot be deleted. Delete the attachments first. For details, see :ref:`Attachment Overview <er_01_0019>`.
 -  An enterprise router that has route tables can be deleted directly.

@@ -71,7 +71,7 @@ Network Planning
    ============== ================= =====================
    Destination    Next Hop          Route Type
    ============== ================= =====================
-   10.0.0.0/8     Enterprise router Static route (custom)
+   10.0.0.0/8     Enterprise Router Static route (custom)
    172.16.0.0/12  Enterprise Router Static route (custom)
    192.168.0.0/16 Enterprise Router Static route (custom)
    ============== ================= =====================

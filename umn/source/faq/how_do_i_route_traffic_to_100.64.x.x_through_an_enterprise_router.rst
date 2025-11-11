@@ -108,7 +108,7 @@ The required resources and routes are as follows:
    -  The transit VPC cannot have the following situations. Otherwise, the default route (0.0.0.0/0) to be configured in :ref:`3 <er_01_0122__li92642018194217>` cannot forward traffic.
 
       -  An ECS in the VPC has an EIP bound.
-      -  The VPC is being used by ELB (either dedicated or shared load balancers), NAT Gateway, VPC Endpoint, and DCS.
+      -  The VPC is being used by ELB (either dedicated or shared load balancers), NAT Gateway, VPC Endpoint, or DCS.
 
 #. .. _er_01_0122__li14564823993:
 

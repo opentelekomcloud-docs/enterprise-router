@@ -14,6 +14,7 @@ Flow logs can capture traffic of the following types of attachments:
 
 -  VPC
 -  Virtual gateway
+-  VPN gateway
 
 Creation Process
 ----------------
@@ -26,8 +27,8 @@ Before creating a flow log for an enterprise router, you need to create a log gr
 
    **Figure 1** Process of creating a flow log
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  By default, you can create a maximum of 20 flow logs.
 -  For TCP and UDP fragments, flow logs can record only the first fragment. Other fragments cannot be recorded because of incomplete packet header.

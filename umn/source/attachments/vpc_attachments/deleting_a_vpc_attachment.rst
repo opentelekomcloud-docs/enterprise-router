@@ -10,8 +10,8 @@ Scenarios
 
 This section describes how to delete a VPC attachment from an enterprise router.
 
-Notes and Constraints
----------------------
+Constraints
+-----------
 
 -  Deleting a VPC attachment will also delete its associations, propagations, and propagated routes in the route table.
 -  If a VPC attachment is deleted, the next hop of its related static routes will be **Blackhole**. If the destination of a packet matches the blackhole route, the packet will be discarded.

@@ -39,9 +39,9 @@ You can create a propagation for attachments to automatically propagate routes t
 Route Priority
 --------------
 
-If there are multiple routes with the same destination but different targets in a route table, the route priority is as follows:
+If there are multiple routes with the same destination in a route table, the route priority is as follows:
 
-Static route > Propagated route for VPC attachment > Propagated route for virtual gateway attachment > Propagated route for VPN gateway attachment
+Static route > Propagated route for VPC attachment = Propagated route for CFW instance attachment > Propagated route for virtual gateway attachment > Propagated route for VPN gateway attachment
 
 .. note::
 

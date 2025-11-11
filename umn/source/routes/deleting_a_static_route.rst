@@ -46,7 +46,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+#. Confirm the information and click **Yes**.
 
    A deleted static route cannot be recovered.
 
