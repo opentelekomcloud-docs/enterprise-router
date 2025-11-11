@@ -22,7 +22,7 @@ GET /v3/{project_id}/{resource_type}/tags
    +=================+=================+=================+===================================================+
    | project_id      | Yes             | String          | Project ID                                        |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
-   | resource_type   | Yes             | String          | Resource type.                                    |
+   | resource_type   | Yes             | String          | Tagged resource type.                             |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **instance**: enterprise router                |
    |                 |                 |                 |                                                   |
@@ -33,6 +33,8 @@ GET /v3/{project_id}/{resource_type}/tags
    |                 |                 |                 | -  **vgw-attachment**: virtual gateway attachment |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **vpn-attachment**: VPN gateway attachment     |
+   |                 |                 |                 |                                                   |
+   |                 |                 |                 | -  **cfw-attachment**: CFW instance attachment    |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
 
 Request Parameters

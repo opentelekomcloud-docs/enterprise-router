@@ -31,7 +31,7 @@ DELETE /v3/{project_id}/{resource_type}/{resource_id}/tags/{key}
    +-----------------+-----------------+-----------------+---------------------------------------------------+
    | resource_id     | Yes             | String          | Resource ID                                       |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
-   | resource_type   | Yes             | String          | Resource type.                                    |
+   | resource_type   | Yes             | String          | Tagged resource type.                             |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **instance**: enterprise router                |
    |                 |                 |                 |                                                   |
@@ -42,6 +42,8 @@ DELETE /v3/{project_id}/{resource_type}/{resource_id}/tags/{key}
    |                 |                 |                 | -  **vgw-attachment**: virtual gateway attachment |
    |                 |                 |                 |                                                   |
    |                 |                 |                 | -  **vpn-attachment**: VPN gateway attachment     |
+   |                 |                 |                 |                                                   |
+   |                 |                 |                 | -  **cfw-attachment**: CFW instance attachment    |
    +-----------------+-----------------+-----------------+---------------------------------------------------+
 
 Request Parameters
@@ -51,6 +53,10 @@ None
 
 Response Parameters
 -------------------
+
+**Status code: 204**
+
+No Content
 
 None
 

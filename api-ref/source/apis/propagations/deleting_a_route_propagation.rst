@@ -55,6 +55,10 @@ Request Parameters
 Response Parameters
 -------------------
 
+**Status code: 202**
+
+Accepted
+
 None
 
 Example Requests

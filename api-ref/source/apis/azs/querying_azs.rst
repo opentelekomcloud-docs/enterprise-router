@@ -25,15 +25,11 @@ GET /v3/{project_id}/enterprise-router/availability-zones
 
 .. table:: **Table 2** Query Parameters
 
-   +-----------------+-----------------+-----------------+---------------------------+
-   | Parameter       | Mandatory       | Type            | Description               |
-   +=================+=================+=================+===========================+
-   | instance_id     | No              | String          | Enterprise router ID      |
-   +-----------------+-----------------+-----------------+---------------------------+
-   | bandwidth_size  | No              | Integer         | Bandwidth size, in Mbit/s |
-   |                 |                 |                 |                           |
-   |                 |                 |                 | Minimum: **-1**           |
-   +-----------------+-----------------+-----------------+---------------------------+
+   =========== ========= ====== ====================
+   Parameter   Mandatory Type   Description
+   =========== ========= ====== ====================
+   instance_id No        String Enterprise router ID
+   =========== ========= ====== ====================
 
 Request Parameters
 ------------------
