@@ -41,7 +41,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Click **Yes**.
+#. Click **OK**.
 
    A deleted enterprise router cannot be recovered.
 

@@ -45,7 +45,7 @@ Procedure
 
    A confirmation dialog box is displayed.
 
-#. Confirm the information and click **Yes**.
+#. Confirm the information and click **OK**.
 
    A deleted attachment cannot be recovered.
 
