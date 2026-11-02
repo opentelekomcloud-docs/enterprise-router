@@ -116,8 +116,6 @@ Example Responses
 
 **Status code: 200**
 
-OK
-
 .. code-block::
 
    {
