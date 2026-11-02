@@ -104,7 +104,7 @@ Response Parameters
    +------------------------+-----------------------------------------------------------------+----------------------------------------------------------------------------------------+
    | tags                   | Array of :ref:`Tag <listroutetables__response_tag>` objects     | Tag                                                                                    |
    +------------------------+-----------------------------------------------------------------+----------------------------------------------------------------------------------------+
-   | bgp_options            | :ref:`BgpOptions <listroutetables__response_bgpoptions>` object | BGP route selection parameters. This parameter is not supported for now.               |
+   | bgp_options            | :ref:`BgpOptions <listroutetables__response_bgpoptions>` object | BGP route selection parameters.                                                        |
    +------------------------+-----------------------------------------------------------------+----------------------------------------------------------------------------------------+
    | created_at             | String                                                          | Creation time in the format YYYY-MM-DDTHH:mm:ss.sssZ                                   |
    +------------------------+-----------------------------------------------------------------+----------------------------------------------------------------------------------------+
@@ -149,13 +149,13 @@ Response Parameters
 
 .. table:: **Table 6** BgpOptions
 
-   +-------------------------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Parameter                     | Type    | Description                                                                                                                                         |
-   +===============================+=========+=====================================================================================================================================================+
-   | load_balancing_as_path_ignore | Boolean | BGP option to specify that AS-Path attributes are not compared during load balancing. This parameter is not supported for now.                      |
-   +-------------------------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | load_balancing_as_path_relax  | Boolean | BGP option to specify that AS-Path attributes with the same length are not compared during load balancing. This parameter is not supported for now. |
-   +-------------------------------+---------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   +-------------------------------+---------+------------------------------------------------------------------------------------------------------------------+
+   | Parameter                     | Type    | Description                                                                                                      |
+   +===============================+=========+==================================================================================================================+
+   | load_balancing_as_path_ignore | Boolean | Whether not to compare the AS_Path attributes of the routes in the load balancing scenario.                      |
+   +-------------------------------+---------+------------------------------------------------------------------------------------------------------------------+
+   | load_balancing_as_path_relax  | Boolean | Whether not to compare the AS_Path attributes with the same length of the routes in the load balancing scenario. |
+   +-------------------------------+---------+------------------------------------------------------------------------------------------------------------------+
 
 .. _listroutetables__response_pageinfo:
 
@@ -180,8 +180,6 @@ Example Responses
 -----------------
 
 **Status code: 200**
-
-OK
 
 .. code-block::
 

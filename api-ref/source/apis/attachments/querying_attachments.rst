@@ -134,7 +134,7 @@ Response Parameters
    +-----------------------+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | frozen_scene          | String                                                      | Frozen reason. The reason can be account arrears, public security, and violations of laws and regulations. This parameter is not supported.                                                                    |
    +-----------------------+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | ipv6_enable           | Boolean                                                     | Whether to enable IPv6. The value **false** indicates that IPv6 is disabled, and the value **true** indicates that IPv6 is enabled. This parameter is not supported.                                           |
+   | ipv6_enable           | Boolean                                                     | Whether to enable IPv6. **false** indicates IPv6 is disabled, and **true** indicates IPv6 is enabled.                                                                                                          |
    +-----------------------+-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _listattachments__response_tag:
@@ -196,8 +196,6 @@ Example Responses
 -----------------
 
 **Status code: 200**
-
-OK
 
 .. code-block::
 

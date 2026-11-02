@@ -178,8 +178,6 @@ Example Responses
 
 **Status code: 202**
 
-Accepted
-
 .. code-block::
 
    {
