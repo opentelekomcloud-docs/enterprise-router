@@ -6,6 +6,7 @@ VPC Attachments
 ===============
 
 -  :ref:`Creating a VPC Attachment <er_01_0070>`
+-  :ref:`Enabling IPv6 for a VPC Attachment <er_01_0020>`
 -  :ref:`Deleting a VPC Attachment <er_01_0072>`
 
 .. toctree::
@@ -13,4 +14,5 @@ VPC Attachments
    :hidden: 
 
    creating_a_vpc_attachment
+   enabling_ipv6_for_a_vpc_attachment
    deleting_a_vpc_attachment

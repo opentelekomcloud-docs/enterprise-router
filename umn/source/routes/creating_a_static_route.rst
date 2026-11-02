@@ -26,7 +26,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -37,7 +37,7 @@ Procedure
    -  Click the enterprise router name and click **Route Tables**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675304226.png
+   .. figure:: /_static/images/en-us_image_0000002727441278.png
       :alt: **Figure 2** Creating a static route
 
       **Figure 2** Creating a static route
@@ -58,6 +58,8 @@ Procedure
       | Destination           | Mandatory                                                                                                                                                                                                                                                                     | 192.168.2.0/24        |
       |                       |                                                                                                                                                                                                                                                                               |                       |
       |                       | Enter the IP address or CIDR block of the attachment. For example, if it is a VPC attachment, enter the CIDR block of the VPC or a subnet of the VPC.                                                                                                                         |                       |
+      |                       |                                                                                                                                                                                                                                                                               |                       |
+      |                       | If IPv6 is enabled for the selected VPC, set **Destination** to an IPv6 address.                                                                                                                                                                                              |                       |
       +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Blackhole Route       | Optional                                                                                                                                                                                                                                                                      | ``-``                 |
       |                       |                                                                                                                                                                                                                                                                               |                       |
@@ -86,6 +88,8 @@ Procedure
 #. Click **OK**.
 
    Wait for 2 to 3 seconds, and click |image2| to refresh the route list. The created static route is displayed.
+
+   If a message appears indicating that IPv6 is not enabled for the selected attachment, enable IPv6 for the attachment and add an IPv6 route again.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png
 .. |image2| image:: /_static/images/en-us_image_0000001383934230.png

@@ -22,7 +22,7 @@ You can create an enterprise router in region A and attach the four VPCs to the 
 
    This document describes how to use an enterprise router to quickly allow multiple VPCs in the same region to communicate with each other.
 
-   You can :ref:`share an enterprise router <er_01_0095>` with different accounts to attach VPCs of these accounts to the same enterprise router for communication.
+   You can share an enterprise router with different accounts to attach VPCs of these accounts to the same enterprise router for communication. For details, see :ref:`Sharing Overview <er_01_0095>`.
 
 Procedure
 ---------

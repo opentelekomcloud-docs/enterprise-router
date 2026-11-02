@@ -24,7 +24,7 @@ Procedure
 #. Click **Search by Tag**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -35,7 +35,7 @@ Procedure
    -  You can click |image3| to delete the added tags one by one or click **Reset** to clear all of them.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675307578.png
+   .. figure:: /_static/images/en-us_image_0000002757191003.png
       :alt: **Figure 2** Searching for an enterprise router by tag
 
       **Figure 2** Searching for an enterprise router by tag

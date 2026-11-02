@@ -15,7 +15,7 @@ Constraints
 
 -  Deleting a VPC attachment will also delete its associations, propagations, and propagated routes in the route table.
 
--  If flow logging is enabled for a VPC attachment, flow logging will be disabled, but collected flow logs will not be deleted.
+-  If the attachment is associated with a flow log, the flow log will be deleted, but collected logs will not be deleted.
 
 Procedure
 ---------
@@ -31,7 +31,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -41,7 +41,7 @@ Procedure
    -  In the upper right corner of the enterprise router, click **Manage Attachment**.
    -  Click the enterprise router name and click **Attachments**.
 
-   .. important::
+   .. note::
 
       A VPN gateway attachment cannot be directly deleted on the **Attachments** tab.
 

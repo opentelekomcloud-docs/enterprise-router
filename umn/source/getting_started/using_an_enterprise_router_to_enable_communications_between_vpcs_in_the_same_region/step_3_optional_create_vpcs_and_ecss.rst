@@ -23,7 +23,7 @@ Procedure
 
 #. Create four VPCs with subnets.
 
-   For details, see "Creating a VPC" in the *Virtual Private Cloud User Guide*.
+   For details, see "Creating a VPC with a Subnet" in the *Virtual Private Cloud User Guide*.
 
    For VPC and subnet details in this example, see :ref:`Table 6 <er_01_0063__table195012516413>`.
 

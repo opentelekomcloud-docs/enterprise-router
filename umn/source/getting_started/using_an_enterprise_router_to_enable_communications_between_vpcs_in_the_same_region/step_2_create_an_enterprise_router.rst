@@ -23,7 +23,7 @@ Procedure
    The **Create Enterprise Router** page is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675058246.png
+   .. figure:: /_static/images/en-us_image_0000002524029408.png
       :alt: **Figure 1** Create Enterprise Router
 
       **Figure 1** Create Enterprise Router
@@ -46,8 +46,6 @@ Procedure
       | Name                            | Specify the enterprise router name. You can change it after the enterprise router is created.                                                                                  | er-test-01            |
       +---------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | ASN                             | Enter an ASN based on your network plan. It cannot be changed after the enterprise router is created.                                                                          | 64800                 |
-      |                                 |                                                                                                                                                                                |                       |
-      |                                 | Default ASN: 64800                                                                                                                                                             |                       |
       +---------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | Default Route Table Association | If you select this option, you do not need to create route tables or associations. You can change your option after the enterprise router is created.                          | Enable                |
       +---------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+

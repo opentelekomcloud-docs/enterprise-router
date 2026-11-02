@@ -24,7 +24,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -34,7 +34,7 @@ Procedure
    The tag list is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001678187074.png
+   .. figure:: /_static/images/en-us_image_0000002683083986.png
       :alt: **Figure 2** Viewing an enterprise router tag
 
       **Figure 2** Viewing an enterprise router tag

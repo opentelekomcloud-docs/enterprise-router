@@ -29,7 +29,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -40,7 +40,7 @@ Procedure
    -  Click the enterprise router name and click **Sharing**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001723186137.png
+   .. figure:: /_static/images/en-us_image_0000002727442568.png
       :alt: **Figure 2** Deleting a sharing
 
       **Figure 2** Deleting a sharing

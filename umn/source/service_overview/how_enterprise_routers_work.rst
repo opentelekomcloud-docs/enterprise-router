@@ -5,7 +5,7 @@
 How Enterprise Routers Work
 ===========================
 
-You can attach your network connections to an enterprise router to quickly construct diversified networks and meet various service requirements. :ref:`Figure 1 <er_01_0011__fig6579195613359>` shows the process of using an enterprise router, including creating an enterprise router, adding attachments to the enterprise router, and configure routes.
+You can attach your network connections to an enterprise router to quickly construct diversified networks and meet various service requirements. :ref:`Figure 1 <er_01_0011__fig6579195613359>` shows the process of using an enterprise router, including creating an enterprise router, adding attachments to the enterprise router, and configuring routes.
 
 Enterprise routers support the following attachments:
 
@@ -17,9 +17,9 @@ Enterprise routers support the following attachments:
 .. _er_01_0011__fig6579195613359:
 
 .. figure:: /_static/images/en-us_image_0000001586175602.png
-   :alt: **Figure 1** Processing of using an enterprise router
+   :alt: **Figure 1** Process of using an enterprise router
 
-   **Figure 1** Processing of using an enterprise router
+   **Figure 1** Process of using an enterprise router
 
 :ref:`Figure 2 <er_01_0011__fig1050492818281>` shows how an enterprise router works. :ref:`Table 2 <er_01_0011__table133841251278>` describes the traffic flows in detail if an enterprise router is used for networking.
 
@@ -115,9 +115,9 @@ Associations
 Each attachment can be associated with one route table for:
 
 -  Packet forwarding: Packets from the attachment are forwarded through the routes specified in the associated route table.
--  Route propagation: The routes in the associated route tables are automatically propagated to the route table of the attachment.
+-  Route learning: The routes in the associated route table are automatically learned for the attachment.
 
-Not all attachments can propagate routes. For details, see :ref:`Table 5 <er_01_0011__table11754113392813>`.
+Not all attachments support route learning. For details, see :ref:`Table 5 <er_01_0011__table11754113392813>`.
 
 .. _er_01_0011__table11754113392813:
 

@@ -6,11 +6,11 @@ Service Overview
 ================
 
 -  :ref:`What Is an Enterprise Router? <er_01_0002>`
--  :ref:`Why Using Enterprise Routers <er_01_0003>`
+-  :ref:`Why You Need Enterprise Routers <er_01_0003>`
 -  :ref:`When to Use Enterprise Routers <er_01_0004>`
 -  :ref:`Functions <er_01_0005>`
 -  :ref:`How Enterprise Routers Work <er_01_0011>`
--  :ref:`Permissions <er_01_0008>`
+-  :ref:`Permissions <er_01_0152>`
 -  :ref:`Notes and Constraints <er_01_0006>`
 -  :ref:`Enterprise Router and Other Services <er_01_0009>`
 -  :ref:`Region and AZ <er_01_0071>`
@@ -20,7 +20,7 @@ Service Overview
    :hidden: 
 
    what_is_an_enterprise_router
-   why_using_enterprise_routers
+   why_you_need_enterprise_routers
    when_to_use_enterprise_routers
    functions
    how_enterprise_routers_work

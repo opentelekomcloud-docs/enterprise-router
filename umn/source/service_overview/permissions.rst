@@ -1,6 +1,6 @@
-:original_name: er_01_0008.html
+:original_name: er_01_0152.html
 
-.. _er_01_0008:
+.. _er_01_0152:
 
 Permissions
 ===========
@@ -9,9 +9,11 @@ If you need to assign different permissions to employees in your enterprise to c
 
 On the IAM console, you can create IAM users and assign permissions to control their access to specific resources. For example, you can create IAM users for software developers and assign permissions to allow them to use enterprise router resources but disallow them from performing any high-risk operations such as deleting such resources.
 
-IAM is free of charge.
+If your account does not need individual IAM users for permissions management, skip this topic.
 
-For more information, see `IAM Service Overview <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html#iam-01-0026>`__.
+IAM is a free service. You only pay for the resources in your account.
+
+For more information, see `What Is IAM? <https://docs.otc.t-systems.com/identity-access-management/umn/service_overview/what_is_iam.html#iam-01-0026>`__.
 
 Enterprise Router Permissions
 -----------------------------
@@ -20,9 +22,9 @@ By default, new IAM users do not have any permissions assigned. You need to add 
 
 An enterprise router is a project-level service deployed in a specific region. You need to select a project for which the permissions will be granted. If you select **All projects**, the permissions will be granted for all the projects. You need to switch to the authorized region before accessing an enterprise router.
 
-:ref:`Table 1 <er_01_0008__table8486434381>` lists all the system-defined policies on enterprise routers.
+:ref:`Table 1 <er_01_0152__table8486434381>` lists all the system-defined policies on enterprise routers.
 
-.. _er_01_0008__table8486434381:
+.. _er_01_0152__table8486434381:
 
 .. table:: **Table 1** System-defined policies on enterprise routers
 
@@ -38,9 +40,9 @@ An enterprise router is a project-level service deployed in a specific region. Y
 
    Currently, permissions cannot be configured for shared enterprise routers.
 
-:ref:`Table 2 <er_01_0008__table12985122891519>` lists the common operations supported by each system-defined policy. You can select a proper one as required.
+:ref:`Table 2 <er_01_0152__table12985122891519>` lists the common operations supported by each system-defined policy. You can select a proper one as required.
 
-.. _er_01_0008__table12985122891519:
+.. _er_01_0152__table12985122891519:
 
 .. table:: **Table 2** Common operations supported by each system policy
 

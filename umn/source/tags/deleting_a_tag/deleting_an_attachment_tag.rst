@@ -24,7 +24,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -34,7 +34,7 @@ Procedure
    The attachment list is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675151210.png
+   .. figure:: /_static/images/en-us_image_0000002727431184.png
       :alt: **Figure 2** Viewing attachments
 
       **Figure 2** Viewing attachments
@@ -44,7 +44,7 @@ Procedure
    The attachment details page is displayed.
 
 
-   .. figure:: /_static/images/en-us_image_0000001678027358.png
+   .. figure:: /_static/images/en-us_image_0000002683243860.png
       :alt: **Figure 3** Deleting an attachment tag
 
       **Figure 3** Deleting an attachment tag
