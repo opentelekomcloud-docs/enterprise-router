@@ -26,7 +26,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -37,7 +37,7 @@ Procedure
    -  Click the enterprise router name and click **Attachments**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675151210.png
+   .. figure:: /_static/images/en-us_image_0000002727431184.png
       :alt: **Figure 2** Viewing attachments
 
       **Figure 2** Viewing attachments
@@ -49,13 +49,13 @@ Procedure
    -  If you click the attached resource, you will go to the details page of the attached resource.
 
 
-   .. figure:: /_static/images/en-us_image_0000002188732464.png
+   .. figure:: /_static/images/en-us_image_0000002756991103.png
       :alt: **Figure 3** Viewing attachment details (VPC attachment)
 
       **Figure 3** Viewing attachment details (VPC attachment)
 
 
-   .. figure:: /_static/images/en-us_image_0000001675117976.png
+   .. figure:: /_static/images/en-us_image_0000002756991153.png
       :alt: **Figure 4** Viewing attachment details (virtual gateway attachment)
 
       **Figure 4** Viewing attachment details (virtual gateway attachment)
@@ -67,7 +67,7 @@ Procedure
       **Figure 5** Viewing attachment details (VPN gateway attachment)
 
 
-   .. figure:: /_static/images/en-us_image_0000002245988513.png
+   .. figure:: /_static/images/en-us_image_0000002727271736.png
       :alt: **Figure 6** Viewing attachment details (CFW instance attachment)
 
       **Figure 6** Viewing attachment details (CFW instance attachment)

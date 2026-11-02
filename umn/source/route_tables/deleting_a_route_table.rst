@@ -18,7 +18,7 @@ Constraints
    -  If **Default Route Association** is set to **Yes** on the basic information page of the route table, the route table is used as the default association route table.
    -  Also, if **Default Route Propagation** is set to **Yes** on the basic information of the route table, the route table is used as the default propagation route table.
 
-   To delete such a route table, change **Default Route Association** and **Default Route Propagation** settings. For details, see :ref:`Modifying an Enterprise Router <er_01_0013>`.
+   To delete such a route table, change **Default Route Association** and **Default Route Propagation** settings. For details, see :ref:`Modifying Enterprise Router Settings <er_01_0013>`.
 
 -  A route table cannot be deleted if it contains an association or a propagation. You need to delete the association and propagation before deleting this route table.
 
@@ -41,7 +41,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -52,7 +52,7 @@ Procedure
    -  Click the enterprise router name and click **Route Tables**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675120256.png
+   .. figure:: /_static/images/en-us_image_0000002756992825.png
       :alt: **Figure 2** Deleting a route table
 
       **Figure 2** Deleting a route table

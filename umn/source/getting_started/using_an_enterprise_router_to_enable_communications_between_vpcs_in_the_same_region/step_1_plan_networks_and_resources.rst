@@ -53,7 +53,7 @@ Network Planning
    |                                   |                                                                                                                                                                                                                                                      |
    |                                   | -  Routes in the default route table can be:                                                                                                                                                                                                         |
    |                                   |                                                                                                                                                                                                                                                      |
-   |                                   |    -  Local: a system route for communications between subnets in a VPC.                                                                                                                                                                             |
+   |                                   |    -  Local: a system route for communication between subnets in a VPC.                                                                                                                                                                              |
    |                                   |    -  Enterprise router: custom routes with 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 as the destinations for routing traffic from a VPC subnet to the enterprise router. See :ref:`Table 3 <er_01_0063__table5325182820514>` for route details. |
    +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Enterprise router                 | After **Default Route Table Association** and **Default Route Table Propagation** are enabled and a VPC attachment is created, the system will automatically:                                                                                        |
@@ -78,8 +78,8 @@ Network Planning
 
 .. note::
 
-   -  If you enable **Auto Add Routes** when creating a VPC attachment, you do not need to manually add static routes to the VPC route table. Instead, the system automatically adds routes (with this enterprise router as the next hop and 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 as the destinations) to all route tables of the VPC.
-   -  If an existing route in the VPC route tables has a destination to 10.0.0.0/8, 172.16.0.0/12, or 192.168.0.0/16, the routes will fail to be added. In this case, do not enable **Auto Add Routes**. After the attachment is created, manually add routes.
+   -  If you enable **Auto Add Routes** when creating a VPC attachment, you do not need to manually add static routes to the VPC route tables. Instead, the system automatically adds routes (with this enterprise router as the next hop and 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16 as the destinations) to all route tables of the VPC.
+   -  If the VPC route tables already have routes with destinations that conflict with 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16, any route pointing to these CIDR blocks will fail to be added. In this case, do not enable **Auto Add Routes**. After the attachment is created, manually add routes.
    -  Do not set the destination of a route (with an enterprise router as the next hop) to 0.0.0.0/0 in the VPC route table. If an ECS in the VPC has an EIP bound, the VPC route table will have a policy-based route with 0.0.0.0/0 as the destination, which has a higher priority than the route with the enterprise router as the next hop. In this case, traffic is forwarded to the EIP and cannot reach the enterprise router.
 
 .. _er_01_0063__table4211920161010:
@@ -143,7 +143,7 @@ The enterprise router, VPCs, and ECSs must be in the same region. You can select
       | vpc-demo-04 | 10.2.0.0/16    | subnet-demo-04 | 10.2.1.0/24       | Default route table     |
       +-------------+----------------+----------------+-------------------+-------------------------+
 
--  An ECS in each VPC, a total of four ECSs
+-  Four ECSs, respectively, in four VPCs
 
    .. _er_01_0063__table154151647412:
 

@@ -24,7 +24,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -35,7 +35,7 @@ Procedure
    -  Click the enterprise router name and click **Sharing**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001723185861.png
+   .. figure:: /_static/images/en-us_image_0000002757002195.png
       :alt: **Figure 2** Editing sharing name
 
       **Figure 2** Editing sharing name
@@ -64,4 +64,4 @@ Procedure
    The sharing list is displayed.
 
 .. |image1| image:: /_static/images/en-us_image_0000001190483836.png
-.. |image2| image:: /_static/images/en-us_image_0000001894082625.png
+.. |image2| image:: /_static/images/en-us_image_0000001894203077.png

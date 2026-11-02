@@ -114,9 +114,9 @@ The required resources and routes are as follows:
 
    Create a VPC peering connection between the service VPC and transit VPC.
 
-   .. important::
+   .. caution::
 
-      You do not need to add routes for the VPC peering connection. For details about the routes to be added, see :ref:`3 <er_01_0122__li92642018194217>`.
+      You only need to create a VPC peering connection. Adding routes is not required at this step. For details about the routes to be added, see :ref:`3 <er_01_0122__li92642018194217>`.
 
 #. .. _er_01_0122__li92642018194217:
 

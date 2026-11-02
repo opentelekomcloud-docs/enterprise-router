@@ -74,7 +74,7 @@ The owner can perform all operations but these other users can perform only some
    +-----------------------------+----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    |                             | :ref:`Viewing an Attachment <er_01_0021>`                            | Other users:                                                                                                                                                                                      |
    |                             |                                                                      |                                                                                                                                                                                                   |
-   |                             |                                                                      | Cannot view the tags added of their attachments.                                                                                                                                                  |
+   |                             |                                                                      | Cannot view the tags added to their attachments.                                                                                                                                                  |
    +-----------------------------+----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    |                             | :ref:`Modifying the Basic Information of an Attachment <er_01_0093>` | Other users can change the names of their attachments created for the shared enterprise router.                                                                                                   |
    +-----------------------------+----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -85,6 +85,8 @@ The owner can perform all operations but these other users can perform only some
 
    Other users cannot view the **Route Tables**, **Sharing**, **Flow Logs**, and **Tags** tabs of the enterprise router.
 
+   **If the monitoring data of an attachment created by the user of a shared enterprise router is missing on Cloud Eye, change the attachment name or description to trigger a refresh. After the update, Cloud Eye will display the monitoring data.**
+
 .. _er_01_0095__section169164232367:
 
 Sharing an Enterprise Router with Other Users
@@ -92,7 +94,7 @@ Sharing an Enterprise Router with Other Users
 
 As the owner, you can share your enterprise router with other users. These other users can create attachments for your enterprise router.
 
--  If **Auto Accept Shared Attachments** is not enabled on your enterprise router, you must accept the attachment creation requests from other users.
+-  If **Auto Accept Shared Attachments** is not enabled on your enterprise router, you need to accept the attachment creation requests from other users.
 
 
    .. figure:: /_static/images/en-us_image_0000001213710098.png

@@ -22,7 +22,7 @@ With CTS, you can record operations associated with your enterprise routers for 
    +---------------------------------------------------------------------+---------------+------------------------------+
    | Adding attachments to an enterprise router                          | erAttachment  | createAttachment             |
    +---------------------------------------------------------------------+---------------+------------------------------+
-   | Modifying an Attachment                                             | erAttachment  | updateAttachment             |
+   | Modifying an attachment                                             | erAttachment  | updateAttachment             |
    +---------------------------------------------------------------------+---------------+------------------------------+
    | Deleting an attachment                                              | erAttachment  | deleteAttachment             |
    +---------------------------------------------------------------------+---------------+------------------------------+

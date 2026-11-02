@@ -25,7 +25,7 @@ Procedure
 
    The **Cloud Eye** console is displayed.
 
-#. In the navigation pane on the left, choose **Cloud Service Monitoring** > **Enterprise Router**.
+#. In the navigation pane on the left, choose **Cloud Service Monitoring** > **Enterprise Router ER**.
 
    The enterprise router list is displayed.
 

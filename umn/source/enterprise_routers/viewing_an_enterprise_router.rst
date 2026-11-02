@@ -32,7 +32,7 @@ Procedure
    In addition to the information shown in the enterprise router list, you can go to :ref:`5 <er_01_0016__li25751958135516>` to view more details.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -44,7 +44,7 @@ Procedure
    View detailed information about the enterprise router.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675113568.png
+   .. figure:: /_static/images/en-us_image_0000002756990069.png
       :alt: **Figure 2** Basic Information
 
       **Figure 2** Basic Information

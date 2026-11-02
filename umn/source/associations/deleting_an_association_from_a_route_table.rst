@@ -10,6 +10,10 @@ Scenarios
 
 This section describes how to delete an association from the route table of an enterprise router.
 
+.. caution::
+
+   After the association between the attachment and the enterprise router route table is deleted, the network instance corresponding to the attachment cannot communicate with other network instances through the enterprise router. Exercise caution when performing this operation.
+
 Procedure
 ---------
 
@@ -24,7 +28,7 @@ Procedure
 #. Search for the target enterprise router by name.
 
 
-   .. figure:: /_static/images/en-us_image_0000001674900098.png
+   .. figure:: /_static/images/en-us_image_0000002725423276.png
       :alt: **Figure 1** Searching for an enterprise router
 
       **Figure 1** Searching for an enterprise router
@@ -35,7 +39,7 @@ Procedure
    -  Click the enterprise router name and click **Route Tables**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001675139170.png
+   .. figure:: /_static/images/en-us_image_0000002727433504.png
       :alt: **Figure 2** Deleting an association
 
       **Figure 2** Deleting an association

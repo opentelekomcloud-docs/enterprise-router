@@ -5,10 +5,10 @@
 When to Use Enterprise Routers
 ==============================
 
-You can use enterprise routers to build cloud, on-premises, or hybrid networks. Here are some typical application scenarios:
+You can use enterprise routers to build cloud networks. Here are some typical application scenarios:
 
 -  :ref:`Scenario 1: Multiple VPCs communicating or not communicating with each other on the cloud, but communicating with the on-premises data center through a Direct Connect connection <er_01_0004__section16111115210>`
--  :ref:`Scenario 2: Dynamic switchover between Direct Connect connections <er_01_0004__section12577403566>`
+-  :ref:`Scenario 2: Dynamic selection and switchover between Direct Connect connections <er_01_0004__section12577403566>`
 -  :ref:`Scenario 3: Active/Standby Direct Connect and VPN connections <er_01_0004__section198551355121620>`
 
 .. _er_01_0004__section16111115210:
@@ -18,9 +18,9 @@ Scenario 1: Multiple VPCs communicating or not communicating with each other on 
 
 
 .. figure:: /_static/images/en-us_image_0000001190538519.png
-   :alt: **Figure 1** Diagram for scenario 1
+   :alt: **Figure 1** Cross-VPC interconnection and isolation
 
-   **Figure 1** Diagram for scenario 1
+   **Figure 1** Cross-VPC interconnection and isolation
 
 .. table:: **Table 1** Using enterprise routers in scenario 1
 
@@ -45,27 +45,27 @@ Scenario 1: Multiple VPCs communicating or not communicating with each other on 
 
 .. _er_01_0004__section12577403566:
 
-Scenario 2: Dynamic switchover between Direct Connect connections
------------------------------------------------------------------
+Scenario 2: Dynamic selection and switchover between Direct Connect connections
+-------------------------------------------------------------------------------
 
 
 .. figure:: /_static/images/en-us_image_0000001144919892.png
-   :alt: **Figure 2** Diagram for scenario 2
+   :alt: **Figure 2** Dynamic selection and switchover between Direct Connect connections
 
-   **Figure 2** Diagram for scenario 2
+   **Figure 2** Dynamic selection and switchover between Direct Connect connections
 
 .. table:: **Table 2** Using enterprise routers in scenario 2
 
-   +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Customer Requirements                | Some services run on the public cloud and some in the on-premises data center. Two independent high-bandwidth Direct Connect connections are deployed between the public cloud and the data center to enable communication between them. |
-   +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Pain Points                          | Two Direct Connect connections are independent of each other and cannot work in load-sharing or active/standby mode.                                                                                                                     |
-   +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Benefits of Using Enterprise Routers | Direct Connect connections are connected to the enterprise router.                                                                                                                                                                       |
-   |                                      |                                                                                                                                                                                                                                          |
-   |                                      | -  Two Direct Connect connections can work in load-sharing mode to ensure high bandwidth and reliability.                                                                                                                                |
-   |                                      | -  Two Direct Connect connections can also work in active/standby mode. If one of the connections becomes unavailable, services are switched over to the other available connection within seconds, preventing service interruptions.    |
-   +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Customer Requirements                | Some services run on the public cloud and some in the on-premises data center. Two independent high-bandwidth Direct Connect connections are deployed between the cloud and the data center to enable communication between them.     |
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Pain Points                          | Two Direct Connect connections are independent of each other and cannot work in load-sharing or active/standby mode.                                                                                                                  |
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Benefits of Using Enterprise Routers | Direct Connect connections are connected to the enterprise router.                                                                                                                                                                    |
+   |                                      |                                                                                                                                                                                                                                       |
+   |                                      | -  Two Direct Connect connections can work in load-sharing mode to ensure high bandwidth and reliability.                                                                                                                             |
+   |                                      | -  Two Direct Connect connections can also work in active/standby mode. If one of the connections becomes unavailable, services are switched over to the other available connection within seconds, preventing service interruptions. |
+   +--------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _er_01_0004__section198551355121620:
 

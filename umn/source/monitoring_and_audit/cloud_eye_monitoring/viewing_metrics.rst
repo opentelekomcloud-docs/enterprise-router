@@ -10,6 +10,10 @@ Scenarios
 
 This section describes how to view monitoring metrics of enterprise routers and their attachments.
 
+.. note::
+
+   **If the monitoring data of an attachment created by the user of a shared enterprise router is missing on Cloud Eye, change the attachment name or description to trigger a refresh. After the update, Cloud Eye will display the monitoring data.**
+
 Procedure
 ---------
 

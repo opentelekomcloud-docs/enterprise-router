@@ -12,9 +12,9 @@ Log Tank Service (LTS) can record flow logs for enterprise routers. A flow log r
 
 Flow logs can capture traffic of the following types of attachments:
 
--  VPC
--  Virtual gateway
--  VPN gateway
+-  A VPC attachment indicates that a VPC is attached to an enterprise router. Flow logs can collect the traffic between the VPC and other attachments of the enterprise router.
+-  A virtual gateway attachment indicates that a Direct Connect virtual gateway is attached to an enterprise router. Flow logs can collect the traffic between the on-premises data center and the cloud connected by Direct Connect.
+-  A VPN gateway attachment indicates that a VPN gateway is attached to an enterprise router. Flow logs can collect the traffic between the on-premises data center and the cloud connected by VPN.
 
 Creation Process
 ----------------
